@@ -1,0 +1,48 @@
+.publications {
+    font-size:  85%;
+    line-height: 200%;
+    padding:    6px;
+    color: #999999;
+    /*background: #ff0000;*/
+}
+.publications:nth-child(odd) {
+    background: #0F0F0F;
+}
+
+.publications:nth-child(even) {
+    background: #1A1A1A;
+}
+
+.publication-icon {
+    font-size: 175%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.publication-year {
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.publication-annotation {
+    background: #d5484f;
+    color: #ffffff;
+    font-size: 110%;
+    padding: 4px;
+    border-radius: 5px;
+    text-shadow: 2px 2px #000000;
+}
+
+.publication-title {
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.publication-authors {
+    font-size: 130%;
+    font-style: italic;
+}
+
+.publication-venue {
+font-size: 110%;
+}
