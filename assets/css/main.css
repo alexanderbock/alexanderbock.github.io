@@ -1346,12 +1346,13 @@
   }
 
   a {
-    color: #ccc;
+    color: #d5484f;
+    text-decoration: none;
   }
 
-    a:hover {
-      text-decoration: none;
-    }
+  a:hover {
+    text-decoration: none;
+  }
 
   sub {
     position: relative;
