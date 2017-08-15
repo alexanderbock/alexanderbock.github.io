@@ -211,12 +211,17 @@
                   {{#if bib}}
                     <a href="{{bib}}"><span class="fa fa-book publication-icon" title="bib: {{bib}}"></span></a><span class="publication-icon">|</span>
                   {{/if}}
+                  {{#if poster}}
+                    <a href="{{poster}}"><span class="fa fa-file-picture-o publication-icon" title="poster: {{poster}}"></span></a>
+                  {{/if}}
                   {{#if pdf}}
                     <a href="{{pdf}}"><span class="fa fa-file-pdf-o publication-icon" title="pdf: {{pdf}}"></span></a>
                   {{/if}}
                 </div>
                 {{#if annotations}}
                   <span class="publication-annotation">{{annotations}}</span>
+                {{else}}
+                  <span class="publication-type">{{type}}</span>
                 {{/if}}
               </div>
             </div>
@@ -224,7 +229,12 @@
             {{#if pdf}}
               <a href="{{pdf}}"" class="publication-title">{{title}}</a>
             {{else}}
-              <span class="publication-title">{{title}}</span>
+              {{#if poster}}
+                <a href="{{poster}}"" class="publication-title">{{title}}</a>
+              {{else}}
+                <span class="publication-title">{{title}}</span>
+              {{/if}}
+              }
             {{/if}}
             </div>
             <div>

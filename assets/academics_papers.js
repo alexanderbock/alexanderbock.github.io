@@ -5,15 +5,17 @@ var json = {
             "authors"       : [ "Bladin, K.", "Axelsson, E.", "Broberg, E.", "Emmart, C.", "Ljung, P.", "Bock, A.", "Ynnerman, A." ],
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
             "year"          : "2017",
+            "type"          : "Paper",
             "pdf"           : "papers/vis17-bladin-globe_browsing.pdf",
             "code"          : "https://github.com/OpenSpace/OpenSpace",
-            "annotations"   : "Best Scientific Visualization Paper"
+            "annotations"   : "Best Scientific Visualization Paper",
         },
         {
             "title"         : "TopoAngler: Interactive Topology-based Extraction of Fishes",
             "authors"       : [ "Bock, A.", "Doraiswamy, H.", "Summers, A.", "Silva, C." ],
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
             "year"          : "2017",
+            "type"          : "Paper",
             "pdf"           : "papers/vis17-bock-topoangler.pdf",
             "video"         : "https://www.youtube.com/watch?v=gz22DjMRJjk"
         },
@@ -22,6 +24,7 @@ var json = {
             "authors"       : [ "Bock, A.", "Axelsson, E.", "Bladin, K.", "Costa, J.", "Payne, G.", "Territo, M.", "Kilby, J.", "Kuznetsova, M.", "Emmart, C.", "Ynnerman, A." ],
             "venue"         : "Journal of Open-Source Software",
             "year"          : "2017",
+            "type"          : "Paper",
             "doi"           : "10.21105/joss.00281",
             "pdf"           : "papers/joss17-bock-openspace.pdf",
             "bib"           : "papers/joss17-bock-openspace.bib",
@@ -33,6 +36,7 @@ var json = {
             "authors"       : [ "Axelsson, E.", "Costa, J.", "Silva, C.", "Emmart, C.", "Bock, A.", "Ynnerman, A." ],
             "venue"         : "Computer Graphics Forum",
             "year"          : "2017",
+            "type"          : "Paper",
             "doi"           : "10.1111/cgf.13202",
             "pdf"           : "papers/eurovis17-axelsson-dynamic_scene_graph.pdf",
             "bib"           : "papers/eurovis17-axelsson-dynamic_scene_graph.bib",
@@ -41,10 +45,23 @@ var json = {
             "code"          : "https://github.com/OpenSpace/OpenSpace"
         },
         {
+            "title"         : "A Visualization-Based Analysis System for Urban Search & Rescue Mission Planning Support",
+            "authors"       : [ "Bock, A.", "Svensson, Å.", "Kleiner, A.", "Lundberg, J.", "Ropinski, T." ],
+            "venue"         : "Computer Graphics Forum",
+            "year"          : "2016",
+            "type"          : "Paper",
+            "doi"           : "10.1111/cgf.12869",
+            "pdf"           : "papers/cgf16-bock-urban-search-and-rescue.pdf",
+            "bib"           : "papers/cgf16-bock-urban-search-and-rescue.bib",
+            "web"           : "http://onlinelibrary.wiley.com/doi/10.1111/cgf.12869/abstract",
+            "annotations"   : "Invited Paper"
+        },
+        {
             "title"         : "OpenSpace: An Open-Source Framework for Data Visualization and Contextualization",
             "authors"       : [ "Bock, A.", "Pembroke, A.", "Mays M.L.", "Ynnerman, A." ],
             "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
             "year"          : "2015",
+            "type"          : "Abstract",
             "pdf"           : "papers/agu15-bock-openspace.pdf",
             "bib"           : "papers/agu15-bock-openspace.bib",
             "code"          : "https://github.com/OpenSpace/OpenSpace"
@@ -54,8 +71,10 @@ var json = {
             "authors"       : [ "Bock, A.", "Marcinkowski, M.", "Kilby, J.", "Emmart, C.", "Ynnerman, A." ],
             "venue"         : "IEEE Vis Poster Session",
             "year"          : "2015",
+            "type"          : "Poster",
             "doi"           : "10.1109/SciVis.2015.7429503",
             "pdf"           : "papers/vis15poster-bock-openspace.pdf",
+            "poster"        : "papers/vis15poster-bock-openspace-poster.pdf",
             "bib"           : "papers/vis15poster-bock-openspace.bib",
             "video"         : "https://www.youtube.com/watch?v=VrfvhVIb6ZE",
             "web"           : "http://ieeexplore.ieee.org/abstract/document/7429503/",
@@ -67,6 +86,7 @@ var json = {
             "authors"       : [ "Dieckmann, M.", "Bock, A.", "Ahmed, H.", "Doria, D.", "Sarri, G.", "Ynnerman, A.", "Borghesi, M." ],
             "venue"         : "Physics of Plasmas",
             "year"          : "2015",
+            "type"          : "Paper",
             "doi"           : "10.1063/1.4926525",
             "pdf"           : "papers/pp15-dieckmann-plasma_shocks.pdf",
             "bib"           : "papers/pp15-dieckmann-plasma_shocks.bib",
@@ -77,40 +97,43 @@ var json = {
             "authors"       : [ "Bock, A.", "Pembroke, A.", "Mays, M.L.", "Rastaetter, L.", "Ynnerman, A", "Ropinski, T." ],
             "venue"         : "IEEE Vis",
             "year"          : "2015",
-            "doi"           : "",
+            "type"          : "Paper",
+            "doi"           : "10.1109/SciVis.2015.7429487",
             "pdf"           : "papers/vis15-bock-space_weather.pdf",
             "bib"           : "papers/vis15-bock-space_weather.bib",
             "video"         : "https://www.youtube.com/watch?v=oSjhmva-XfU"
-        },
-        {
-            "title"         : "An Interactive Visualization System for Urban Search & Rescue Mission Planning",
-            "authors"       : [ "Bock, A.", "Kleiner, A.", "Lundberg, J.", "Ropinski, T." ],
-            "venue"         : "International Symposium on Safety, Security, and Rescue Robotics",
-            "year"          : "2014",
-            "doi"           : "10.1109/SSRR.2014.7017652",
-            "pdf"           : "papers/ssrr14-bock-urban_search_and_rescue.pdf",
-            "bib"           : "papers/ssrr14-bock-urban_search_and_rescue.bib",
-            "web"           : "http://ieeexplore.ieee.org/document/7017652/"
         },
         {
             "title"         : "Hybrid Data Visualization Based On Depth Complexity Histogram Analysis",
             "authors"       : [ "Lindholm, S.", "Falk, M.", "Sundén, E.", "Bock, A.", "Ynnerman, A.", "Ropinski, T." ],
             "venue"         : "Computer Graphics Forum",
             "year"          : "2015",
+            "type"          : "Paper",
             "doi"           : "10.1111/cgf.12460",
             "pdf"           : "papers/cgf14-lindholm-depth_complexity.pdf",
             "bib"           : "papers/cgf14-lindholm-depth_complexity.bib",
             "web"           : "http://onlinelibrary.wiley.com/doi/10.1111/cgf.12460/abstract"
         },
         {
+            "title"         : "An Interactive Visualization System for Urban Search & Rescue Mission Planning",
+            "authors"       : [ "Bock, A.", "Kleiner, A.", "Lundberg, J.", "Ropinski, T." ],
+            "venue"         : "International Symposium on Safety, Security, and Rescue Robotics",
+            "year"          : "2014",
+            "type"          : "Paper",
+            "doi"           : "10.1109/SSRR.2014.7017652",
+            "pdf"           : "papers/ssrr14-bock-urban_search_and_rescue.pdf",
+            "bib"           : "papers/ssrr14-bock-urban_search_and_rescue.bib",
+            "web"           : "http://ieeexplore.ieee.org/document/7017652/"
+        },
+        {
             "title"         : "Interaction Techniques as a Communication Channel when Presenting 3D Visualizations",
             "authors"       : [ "Sundén, E.", "Bock, A.", "Jönsson, D.", "Ynnerman, A.", "Ropinski, T." ],
             "venue"         : "IEEE VIS International Workshop on 3DVis",
             "year"          : "2014",
+            "type"          : "Paper",
             "doi"           : "10.1109/3DVis.2014.7160102",
             "pdf"           : "papers/3dvis14-sunden-interaction_techniques.pdf",
             "bib"           : "papers/3dvis14-sunden-interaction_techniques.bib",
-            "video"         : "",
             "web"           : "http://ieeexplore.ieee.org/document/7160102/"
         },
         {
@@ -118,6 +141,7 @@ var json = {
             "authors"       : [ "Bock, A.", "Kleiner, A.", "Lundberg, J.", "Ropinski, T." ],
             "venue"         : "Vision, Modeling, and Visualization",
             "year"          : "2014",
+            "type"          : "Paper",
             "doi"           : "10.2312/vmv.20141275",
             "pdf"           : "papers/vmv14-bock-urban_search_and_rescue.pdf",
             "bib"           : "papers/vmv14-bock-urban_search_and_rescue.bib",
@@ -127,9 +151,11 @@ var json = {
         {
             "title"         : "VCMass: A Framework for Verification of Coronal Mass Ejection Ensemble Simulations",
             "authors"       : [ "Bock, A.", "Mays, M.L.", "Rastaetter, L.", "Ynnerman, A.", "Ropinksi, T." ],
-            "venue"         : "2014",
-            "year"          : "IEEE Vis Poster Session",
+            "venue"         : "IEEE Vis Poster Session",
+            "year"          : "2014",
+            "type"          : "Poster",
             "pdf"           : "papers/vis14poster-bock-space_weather.pdf",
+            "poster"        : "papers/vis14poster-bock-space_weather-poster.pdf",
             "bib"           : "papers/vis14poster-bock-space_weather.bib",
             "annotations"   : "Best Scientific Visualization Poster"
         },
@@ -138,6 +164,7 @@ var json = {
             "authors"       : [ "Bock, A.", "Lang, N.", "Evangelista, G.", "Lehrke, R.", "Ropinski, T." ],
             "venue"         : "Pacific Visualization",
             "year"          : "2013",
+            "type"          : "Paper",
             "doi"           : "10.1109/PacificVis.2013.6596133",
             "pdf"           : "papers/pavis13-bock-deep_brain_stimulation.pdf",
             "bib"           : "papers/pavis13-bock-deep_brain_stimulation.bib",
@@ -145,10 +172,20 @@ var json = {
             "web"           : "http://ieeexplore.ieee.org/document/6596133/"
         },
         {
+            "title"         : "Interactive Urban Search & Rescue Planning",
+            "authors"       : [ "Bock, A.", "Kleiner, A.", "Ropinksi, T." ],
+            "venue"         : "Excellence Centre at Linköping-Lund in Information Technology",
+            "year"          : "2013",
+            "type"          : "Poster",
+            "pdf"           : "papers/elliit13-bock-urban-search-and-rescue.pdf",
+            "bib"           : "papers/elliit13-bock-urban-search-and-rescue.bib"
+        },
+        {
             "title"         : "Poor Man’s Rendering Of Segmented Data",
             "authors"       : [ "Lindholm, S.", "Bock, A." ],
             "venue"         : "SIGRAD",
             "year"          : "2013",
+            "type"          : "Paper",
             "pdf"           : "papers/sigrad13-lindholm-poor_mans_segmentation.pdf",
             "bib"           : "papers/sigrad13-lindholm-poor_mans_segmentation.bib"
         },
@@ -157,6 +194,7 @@ var json = {
             "authors"       : [ "Bock, A.", "Sundén, E.", "Bingchen, L.", "Wuensche, B.", "Ropinski, T." ],
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
             "year"          : "2012",
+            "type"          : "Paper",
             "doi"           : "10.1109/TVCG.2012.206",
             "pdf"           : "papers/vis12-bock-finite_element_modeling.pdf",
             "bib"           : "papers/vis12-bock-finite_element_modeling.bib",
@@ -168,6 +206,7 @@ var json = {
             "authors"       : [ "Nguyen, K. T.", "Bock, A.", "Ynnerman, A.", "Ropinski, T." ],
             "venue"         : "Visual Computing for Biology and Medicine",
             "year"          : "2012",
+            "type"          : "Paper",
             "doi"           : "10.2312/VCBM/VCBM12/107-114",
             "pdf"           : "papers/vcbm12-nguyen-kinetic_pet_modeling.pdf",
             "bib"           : "papers/vcbm12-nguyen-kinetic_pet_modeling.bib",
@@ -178,6 +217,7 @@ var json = {
             "authors"       : [ "Liu, B.", "Bock, A.", "Ropinski, T.", "Nash, M.", "Nielsen, P.", "Wuensche, B." ],
             "venue"         : "Conference on Image and Vision Computing New Zealand",
             "year"          : "2012",
+            "type"          : "Paper",
             "doi"           : "10.1145/2425836.2425861",
             "pdf"           : "papers/ivcnz12-bingchen-dvr_fem.pdf",
             "bib"           : "papers/ivcnz12-bingchen-dvr_fem.bib",
@@ -188,6 +228,7 @@ var json = {
             "authors"       : [ "Törnros, M.", "Berrios, D.", "Bock, A.", "Emmart, C.", "Harberts, R.", "Ynnerman, A." ],
             "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
             "year"          : "2012",
+            "type"          : "Abstracts",
             "pdf"           : "papers/agu12-tornros-space_weather.pdf",
             "bib"           : "papers/agu12-tornros-space_weather.bib"
         },
@@ -196,11 +237,15 @@ var json = {
             "authors"       : [ "Bock, A.", "Lang, N.", "Evangelista, G.", "Lehrke, R.", "Ropinski, T." ],
             "venue"         : "Visual Computing for Biology and Medicine",
             "year"          : "2012",
-            "pdf"           : "papers/vcbm12poster-bock-deep_brain_stimulation.pdf",
+            "type"          : "Poster",
+            "poster"        : "papers/vcbm12poster-bock-deep_brain_stimulation.pdf",
             "bib"           : "papers/vcbm12poster-bock-deep_brain_stimulation.bib"
         }
     ]
 }
+
+
+
 
 // arg is    [string, list]
 // return is [string, list]
