@@ -4,6 +4,60 @@
     text-decoration: none;
 }
 
-.my-header {
-    padding-bottom: 1.5cm;
+#container4 {
+    padding-top: 0.5cm;
+    padding-bottom: 2cm;
+
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+}
+#container3 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#col1 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:77%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:81%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:85%;
+    overflow:hidden;
+}
+#col4 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:89%;
+    overflow:hidden;
 }

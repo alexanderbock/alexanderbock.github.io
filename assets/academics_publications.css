@@ -3,7 +3,6 @@
     line-height: 200%;
     padding:    6px;
     color: #999999;
-    /*background: #ff0000;*/
 }
 .publications:nth-child(odd) {
     background: #0F0F0F;
@@ -17,11 +16,13 @@
     font-size: 175%;
     padding-left: 2px;
     padding-right: 2px;
+    color: #ccc;
 }
 
 .publication-year {
     font-size: 150%;
     text-decoration: none;
+    color: #ccc;
 }
 
 .publication-annotation {
@@ -36,6 +37,7 @@
 .publication-title {
     font-size: 150%;
     text-decoration: none;
+    color: #ccc;
 }
 
 .publication-authors {
@@ -48,5 +50,67 @@
 }
 
 .publication-venue {
-font-size: 110%;
+    font-size: 110%;
+}
+
+.spacing {
+    padding-bottom: 3cm;
+}
+
+#container4 {
+    padding-top: 0.5cm;
+    /*padding-bottom: 2cm;*/
+
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+}
+#container3 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:25%;
+}
+#col1 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:77%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:81%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:85%;
+    overflow:hidden;
+}
+#col4 {
+    float:left;
+    width:21%;
+    position:relative;
+    left:89%;
+    overflow:hidden;
 }
