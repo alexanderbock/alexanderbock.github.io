@@ -10,6 +10,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="stylesheet" href="assets/column.css" />
+    <link rel="stylesheet" href="assets/tabular.css" />
+
     <link rel="stylesheet" href="assets/academics.css" />
     <link rel="stylesheet" href="assets/academics_publications.css" />
 
@@ -28,12 +32,6 @@
           <nav id="nav">
             <ul>
               <li>
-                <a href="projects.html">Projects</a>
-                <ul>
-                  <li><a href="#">Project A</a></li>
-                </ul>
-              </li>
-              <li>
                 <a href="academics.html">Academics</a>
                 <ul>
                   <li><a href="academics_publications.html">Publications</a></li>
@@ -42,6 +40,7 @@
                   <li><a href="academics_supervision.html">Supervision</a></li>
                 </ul>
               </li>
+              <li><a href="projects.html">Projects</a></li>
               <li><a href="openspace.html">OpenSpace</a></li>
               <li><a href="misc.html">Misc</a></li>
               <li><a href="cv.html">CV</a></li>
@@ -213,70 +212,70 @@
     <script id="publication-template" type="text/x-handlebars-template">
       <div>
         {{#each publications}}
-          <div class="publications">
+          <div class="tabular">
             <div style="float: right; text-align: right; margin-left: 10px">
               <div>
-                <span><a href="https://www.wikiwand.com/en/{{year}}" class="publication-year">{{year}}</a></span>
+                <span><a href="https://www.wikiwand.com/en/{{year}}" class="tabular-year">{{year}}</a></span>
                 <div>
                   {{#if video}}
                     <a href="{{video}}">
-                      <span class="fa fa-video-camera publication-icon" title="video: {{video}}"></span>
+                      <span class="fa fa-video-camera tabular-icon" title="video: {{video}}"></span>
                     </a>
-                    <span class="publication-icon">|</span>
+                    <span class="tabular-icon">|</span>
                   {{/if}}
                   {{#if code}}
                     <a href="{{code}}">
-                      <span class="fa fa-code publication-icon" title="code: {{code}}"></span>
+                      <span class="fa fa-code tabular-icon" title="code: {{code}}"></span>
                     </a>
-                    <span class="publication-icon">|</span>
+                    <span class="tabular-icon">|</span>
                   {{/if}}
                   {{#if web}}
                     <a href="{{web}}">
-                      <span class="fa fa-cloud publication-icon" title="web: {{web}}"></span>
+                      <span class="fa fa-cloud tabular-icon" title="web: {{web}}"></span>
                     </a>
-                    <span class="publication-icon">|</span>
+                    <span class="tabular-icon">|</span>
                   {{/if}}
                   {{#if bib}}
                     <a href="{{bib}}">
-                      <span class="fa fa-book publication-icon" title="bib: {{bib}}"></span>
+                      <span class="fa fa-book tabular-icon" title="bib: {{bib}}"></span>
                     </a>
-                    <span class="publication-icon">|</span>
+                    <span class="tabular-icon">|</span>
                   {{/if}}
                   {{#if poster}}
                     <a href="{{poster}}">
-                      <span class="fa fa-file-picture-o publication-icon" title="poster: {{poster}}"></span>
+                      <span class="fa fa-file-picture-o tabular-icon" title="poster: {{poster}}"></span>
                     </a>
                   {{/if}}
                   {{#if pdf}}
                     <a href="{{pdf}}">
-                      <span class="fa fa-file-pdf-o publication-icon" title="pdf: {{pdf}}"></span>
+                      <span class="fa fa-file-pdf-o tabular-icon" title="pdf: {{pdf}}"></span>
                     </a>
                   {{/if}}
                 </div>
                 {{#if annotations}}
                   <span class="publication-annotation">{{annotations}}</span>
                 {{else}}
-                  <span class="publication-type">{{type}}</span>
+                  <span class="tabular-type">{{type}}</span>
                 {{/if}}
               </div>
             </div>
             <div>
             {{#if pdf}}
-              <a href="{{pdf}}"" class="publication-title">{{title}}</a>
+              <a href="{{pdf}}"" class="tabular-first-line">{{title}}</a>
             {{else}}
               {{#if poster}}
-                <a href="{{poster}}"" class="publication-title">{{title}}</a>
+                <a href="{{poster}}"" class="tabular-first-line">{{title}}</a>
               {{else}}
-                <span class="publication-title">{{title}}</span>
+                <span class="tabular-first-line">{{title}}</span>
               {{/if}}
               }
             {{/if}}
             </div>
             <div>
-              <span class="publication-authors">{{authorList authors}}</span>
+              <span class="tabular-second-line">{{authorList authors}}</span>
             </div>
             <div>
-              <span class="publication-venue">{{venue}}</span>
+              <span class="tabular-third-line">{{venue}}</span>
             </div>
           </div>
       {{/each}}

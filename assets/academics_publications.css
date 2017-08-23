@@ -1,30 +1,3 @@
-.publications {
-    font-size:  85%;
-    line-height: 200%;
-    padding:    6px;
-    color: #999999;
-}
-.publications:nth-child(odd) {
-    background: #0F0F0F;
-}
-
-.publications:nth-child(even) {
-    background: #1A1A1A;
-}
-
-.publication-icon {
-    font-size: 175%;
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #ccc;
-}
-
-.publication-year {
-    font-size: 150%;
-    text-decoration: none;
-    color: #ccc;
-}
-
 .publication-annotation {
     background: #d5484f;
     color: #ffffff;
@@ -34,83 +7,12 @@
     text-shadow: 2px 2px #000000;
 }
 
-.publication-title {
-    font-size: 150%;
-    text-decoration: none;
-    color: #ccc;
-}
-
-.publication-authors {
+.tabular-second-line {
     font-size: 130%;
     font-style: italic;
 }
 
-.publication-type {
-    font-size: 125%;
-}
-
-.publication-venue {
+.tabular-third-line {
     font-size: 110%;
 }
 
-.spacing {
-    padding-bottom: 3cm;
-}
-
-#container4 {
-    padding-top: 0.5cm;
-    /*padding-bottom: 2cm;*/
-
-    clear:left;
-    float:left;
-    width:100%;
-    overflow:hidden;
-}
-#container3 {
-    clear:left;
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-}
-#container2 {
-    clear:left;
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-}
-#container1 {
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-}
-#col1 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:77%;
-    overflow:hidden;
-}
-#col2 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:81%;
-    overflow:hidden;
-}
-#col3 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:85%;
-    overflow:hidden;
-}
-#col4 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:89%;
-    overflow:hidden;
-}

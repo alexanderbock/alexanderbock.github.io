@@ -34,7 +34,8 @@ var json = {
             "title"     : "Hybrid Data Visualization Based on Depth Complexity Histogram Analysis",
             "location"  : "Groningen, The Netherlands",
             "year"      : "2016",
-            "type"      : "Paper"
+            "type"      : "Paper",
+            "video"     : "https://vimeo.com/187725634"
         },
         {
             "occasion"  : "EuroVis",
