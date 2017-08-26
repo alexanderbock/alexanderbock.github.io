@@ -15,14 +15,14 @@ var json_ongoing = {
             "role" : "Supervisor*"
         },
         {
-            "name": "Michael Nielsson \& Oskar Carlbaum",
+            "name": "Michael Novén \& Oskar Carlbaum",
             "title": "Real-Time Magnetohydrodynamic Space Weather Visualization",
             "university" : "Linköping University",
             "location" : "NASA Goddard Space Flight Center, Community Coordinated Modeling Center",
             "role" : "Supervisor*"
         },
         {
-            "name": "Michael Novén \& Rickard Lindstedt",
+            "name": "Michael Sjöström \& Rickard Lindstedt",
             "title": "Interactive In-Situ Visualization of Mars Science Laboratory Data",
             "university" : "Linköping University",
             "location" : "American Museum of Natural History",
