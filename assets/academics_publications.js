@@ -16,6 +16,7 @@ var json = {
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
             "year"          : "2017",
             "type"          : "Paper",
+            "doi"           : "10.1109/TVCG.2017.2743980",
             "pdf"           : "papers/vis17-bock-topoangler.pdf",
             "video"         : "https://www.youtube.com/watch?v=gz22DjMRJjk"
         },
