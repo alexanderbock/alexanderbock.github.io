@@ -12,6 +12,9 @@
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+
+
   </head>
   <body class="homepage">
     <div id="page-wrapper">
@@ -74,6 +77,13 @@
               This page contains a list of different side projects (mostly programming related) that might be, in some form or another, interesting.  Most of them are archived on my <a href="https://github.com/AlexanderBock">GitHub</a> page.
               </article>
 
+              <article>
+              <h3>Walking Manhattan</h3>
+                <div id="map_canvas" align="right" style="float: right; width: 512px; height: 400px;"></div>
+              This project is about walking as many of the streets of New York as possible and keeping track of my progress.  I started this project after moving to New York in 2017 and wanted to experience as much of the city as possible.  The data for this project is collected via a free GPS recorder (GPX Tracker) for my phone whenever I am taking a walk or walking back from the office.  The GPX data is first cleaned using an editor (GPX Track Editor) to make the rendering less intensive and then converted into less verbose format that also strips out any timing information for privacy reasons using a Python script.  The file is then parsed using JavaScript and rendered using the Google Maps API at the same time . <br /> <br /> Python, JavaScript
+              <!-- <div align="right"> -->
+              <!-- </div> -->
+              </article>
               <article>
               <h3>1 second everyday</h3>
               <img src="images/project-1se.jpg" align="right" width="512"/>This is a Python script that was inspired to create after watching a TED talk by Cesar Kuriyama (<a href="http://www.ted.com/talks/cesar_kuriyama_one_second_every_day.html">link</a>).  The idea is to be able to easily record one second of video footage every day and create one continuous video from it that captures the memories and thoughts of every day of one's life.  An iPhone app existed at the time to do this editing on the phone, but I was not really happy with the design of the app and didn't want to be locked to the iPhone for such a long term project. <br />  The script I created crawls a Dropbox directory and interfaces with <a href="https://ffmpeg.org">ffmpeg</a> to extract one second for each of the videos in the directory.  There is configuration file to determine which second of a longer video to use and whether to apply other transformations (mostly converting portrait into landscape, rotating an image by 180 degrees, and upscaling older videos).  It then adds the date of that video (based off the file name) in either white or black text and reencodes all one second videos into one long video.  All of the original videos are kept to prevent a quality degredation that would otherwise occur if new frames are added to an existing file.  I have been doing this since December 2013 and unfortunately missed many days since, but it is an experience that I can recommend to everyone. <br /> <br /> <a href="https://github.com/alexanderbock/1-second-everyday">GitHub</a>, Python
@@ -210,5 +220,9 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+
+<!-- Project Walk Manhattan -->
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAHBYCY-5zYgYgZ38Jam-5nxSTKEp7py0caJTJEXq_wNxF4Jq_4hS2RdptbYE1DlTGqjtjIx9EwSBnng" type="text/javascript"></script>
+    <script src="assets/project_walkingmanhattan.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
