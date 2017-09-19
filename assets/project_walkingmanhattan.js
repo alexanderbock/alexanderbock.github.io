@@ -23,7 +23,8 @@ $(document).ready(function() {
         var values = lines[line].split(' ')
 
         var q;
-        for (var value = 0; value < values.length; value=value+2) {
+        // We have to stop one iteration earlier due to an extra " " at the end of the the line
+        for (var value = 0; value < values.length - 1; value=value+2) {
           var lat = values[value];
           var lng = values[value + 1];
           var p = new GLatLng(parseFloat(lat, 10), parseFloat(lng, 10));
