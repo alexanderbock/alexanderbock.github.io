@@ -19,7 +19,7 @@ $(document).ready(function() {
     null,
     function(data) {
       var lines = data.split('\t')
-      for (var line = 0; line < lines.length; ++line) {
+      for (var line = 0; line < lines.length - 1; ++line) {
         var values = lines[line].split(' ')
 
         var q;
