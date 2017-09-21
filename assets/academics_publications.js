@@ -6,7 +6,10 @@ var json = {
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
             "year"          : "2017",
             "type"          : "Paper",
+            "doi"           : "10.1109/TVCG.2017.2743958",
             "pdf"           : "papers/vis17-bladin-globe_browsing.pdf",
+            "bib"           : "papers/vis17-bladin-globe_browsing.bib",
+            "web"           : "http://ieeexplore.ieee.org/document/8017579/"
             "code"          : "https://github.com/OpenSpace/OpenSpace",
             "annotations"   : "Best Scientific Visualization Paper",
         },
@@ -18,6 +21,8 @@ var json = {
             "type"          : "Paper",
             "doi"           : "10.1109/TVCG.2017.2743980",
             "pdf"           : "papers/vis17-bock-topoangler.pdf",
+            "bib"           : "papers/vis17-bock-topoangler.bib",
+            "web"           : "http://ieeexplore.ieee.org/document/8017639/"
             "video"         : "https://www.youtube.com/watch?v=gz22DjMRJjk"
         },
         {
