@@ -11,7 +11,7 @@ var json = {
             "bib"           : "papers/vis17-bladin-globe_browsing.bib",
             "web"           : "http://ieeexplore.ieee.org/document/8017579/",
             "code"          : "https://github.com/OpenSpace/OpenSpace",
-            "annotations"   : "Best Scientific Visualization Paper",
+            "annotations"   : "Best Scientific Visualization Paper"
         },
         {
             "title"         : "TopoAngler: Interactive Topology-based Extraction of Fishes",
