@@ -22,7 +22,7 @@ var json = {
             "doi"           : "10.1109/TVCG.2017.2743980",
             "pdf"           : "papers/vis17-bock-topoangler.pdf",
             "bib"           : "papers/vis17-bock-topoangler.bib",
-            "web"           : "http://ieeexplore.ieee.org/document/8017639/"
+            "web"           : "http://ieeexplore.ieee.org/document/8017639/",
             "video"         : "https://www.youtube.com/watch?v=gz22DjMRJjk"
         },
         {
