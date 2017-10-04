@@ -26,7 +26,7 @@ var json = {
             "video"         : "https://www.youtube.com/watch?v=gz22DjMRJjk"
         },
         {
-            "title"         : "OpenSpace: An open-source astrovisualization framework",
+            "title"         : "OpenSpace: An Open-Source Astrovisualization Framework",
             "authors"       : [ "Bock, A.", "Axelsson, E.", "Bladin, K.", "Costa, J.", "Payne, G.", "Territo, M.", "Kilby, J.", "Kuznetsova, M.", "Emmart, C.", "Ynnerman, A." ],
             "venue"         : "Journal of Open-Source Software",
             "year"          : "2017",
