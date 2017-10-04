@@ -10,7 +10,7 @@ var json = {
             "pdf"           : "papers/vis17-bladin-globe_browsing.pdf",
             "bib"           : "papers/vis17-bladin-globe_browsing.bib",
             "web"           : "http://ieeexplore.ieee.org/document/8017579/",
-            "code"          : "https://github.com/OpenSpace/OpenSpace",
+            "code"          : "https://github.com/OpenSpace/OpenSpace", 
             "annotations"   : "Best Scientific Visualization Paper"
         },
         {

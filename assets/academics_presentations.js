@@ -1,6 +1,13 @@
 var json = {
     "presentations": [
         {
+            "occasion"  : "IEEE Vis",
+            "title"     : "TopoAngler: Interactive Topology-based Segmentation of Fishes",
+            "location"  : "Phoenix, USA",
+            "year"      : "2017",
+            "type"      : "Paper"
+        },
+        {
             "occasion"  : "Space Apps NYC",
             "title"     : "OpenSpace",
             "location"  : "New York, USA",
