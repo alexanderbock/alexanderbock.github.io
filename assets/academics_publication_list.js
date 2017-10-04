@@ -9,8 +9,8 @@ var json = {
             "doi"           : "10.1109/TVCG.2017.2743958",
             "pdf"           : "papers/vis17-bladin-globe_browsing.pdf",
             "bib"           : "papers/vis17-bladin-globe_browsing.bib",
-            "code"          : "https://github.com/OpenSpace/OpenSpace",
             "web"           : "http://ieeexplore.ieee.org/document/8017579/",
+            "code"          : "https://github.com/OpenSpace/OpenSpace",
             "annotations"   : "Best Scientific Visualization Paper"
         },
         {
