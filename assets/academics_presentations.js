@@ -1,6 +1,13 @@
 var json = {
     "presentations": [
         {
+            "occasion"  : "Evolutionary Robotics",
+            "title"     : "OpenSpace: An open-source astrovisualization framework bridging the gap between scientists and the public",
+            "location"  : "online",
+            "year"      : "2017",
+            "video"     : "https://www.youtube.com/watch?v=iWP0j8UsWLM"
+        },
+        {
             "occasion"  : "Flatiron Scientific Visualization Conference",
             "title"     : "OpenSpace: Hands-On",
             "location"  : "New York, USA",
