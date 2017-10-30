@@ -1,6 +1,13 @@
 var json = {
     "presentations": [
         {
+            "occasion"  : "Flatiron Scientific Visualization Conference",
+            "title"     : "OpenSpace: Hands-On",
+            "location"  : "New York, USA",
+            "year"      : "2017",
+            "type"      : "Invited"
+        },
+        {
             "occasion"  : "IEEE Vis",
             "title"     : "TopoAngler: Interactive Topology-based Segmentation of Fishes",
             "location"  : "Phoenix, USA",
