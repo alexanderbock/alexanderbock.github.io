@@ -94,6 +94,7 @@ var json = {
             "year"          : "2015",
             "type"          : "Paper",
             "doi"           : "10.1063/1.4926525",
+            "web"           : "https://arxiv.org/abs/1507.03220",
             "pdf"           : "papers/pp15-dieckmann-plasma_shocks.pdf",
             "bib"           : "papers/pp15-dieckmann-plasma_shocks.bib",
             "video"         : "https://www.youtube.com/watch?v=8cVkNNtUeqI"
@@ -105,6 +106,7 @@ var json = {
             "year"          : "2015",
             "type"          : "Paper",
             "doi"           : "10.1109/SciVis.2015.7429487",
+            "web"           : "http://ieeexplore.ieee.org/document/7429487/",
             "pdf"           : "papers/vis15-bock-space_weather.pdf",
             "bib"           : "papers/vis15-bock-space_weather.bib",
             "video"         : "https://www.youtube.com/watch?v=oSjhmva-XfU"
