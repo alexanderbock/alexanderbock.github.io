@@ -1,13 +1,6 @@
 var json_ongoing = {
     "supervisions": [
         {
-            "name"       : "Klas Eskilson",
-            "title"      : "OpenSpace: Developing a Web GUI for Rapid Prototyping and Public Exhibitions",
-            "university" : "Linköping University",
-            "location"   : "New York University",
-            "role"       : "Supervisor*"
-        },
-        {
             "name"       : "Michael Marcinkowski",
             "title"      : "Contextualization of Satellite Mission Planning for Deep Space Planetary Encounters",
             "university" : "Linköping University",
@@ -20,8 +13,17 @@ var json_ongoing = {
 var json_finished = {
     "supervisions": [
         {
+            "name"       : "Klas Eskilson",
+            "title"      : "OpenSpace: Developing a Web GUI for Rapid Prototyping and Public Exhibitions",
+            "thesis"     : "http://liu.diva-portal.org/smash/get/diva2:1169029/FULLTEXT01.pdf",
+            "university" : "Linköping University",
+            "location"   : "New York University",
+            "role"       : "Supervisor*"
+        },
+        {
             "name"       : "Jonathan Bosson",
             "title"      : "Multi-Touch Interfaces for Public Exploration and Navigation in Astronomical Visualizations",
+            "thesis"      : "http://www.diva-portal.org/smash/get/diva2:1147162/FULLTEXT01.pdf",
             "university" : "Linköping University",
             "location"   : "University of Utah, Scientific Computing and Imaging Institute",
             "role"       : "Supervisor*"
