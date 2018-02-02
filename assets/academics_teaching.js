@@ -1,7 +1,14 @@
 var json = {
     "teachings": [
         {
-            "years"       : "2017",
+            "years"       : "2018",
+            "role"        : "Lecturer",
+            "class"       : "DS-GA 3001",
+            "description" : "Scientific Visualization",
+            "university"  : "New York University"
+        },
+        {
+            "years"       : "2017, 2018",
             "role"        : "Supervisor",
             "class"       : "DS-GA 1009",
             "description" : "Practical Data Visualization Internship",
