@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var map = new google.maps.Map(
-    document.getElementById("map_canvas"),
+    document.getElementById("map_canvas_walking"),
     {
       zoom: 12,
       center: { lat: 40.72, lng: -73.99 }
@@ -8,7 +8,7 @@ $(document).ready(function() {
   );
 
   $.get(
-    'assets/project_walkingmanhattan.data',
+    'assets/project_hermes.data',
     null,
     function(data) {
       var lines = data.split('\t')
