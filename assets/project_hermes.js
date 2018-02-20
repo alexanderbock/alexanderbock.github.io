@@ -11,7 +11,7 @@ $(document).ready(function() {
     'assets/project_hermes.data',
     null,
     function(data) {
-      var lines = data.split('\t')
+      var lines = data.split('\n')
       for (var line = 0; line < lines.length; ++line) {
         var values = lines[line].split(' ')
 
