@@ -1,6 +1,30 @@
 var json = {
     "publications": [
         {
+            "title"         : "OpenSpace: Bringing NASA Missions to the Public",
+            "authors"       : [ "Bock, A.", "Hansen, C.", "Ynnerman, A." ],
+            "venue"         : "IEEE Computer",
+            "year"          : "2018",
+            "type"          : "Paper",
+            // "doi"           : "10.1109/MCG.2018.032421653",
+            "pdf"           : "papers/computer18-bock-openspace-visviews.pdf",
+            // "bib"           : "papers/cga18-bock-openspace-what-to-how.bib",
+            // "web"           : "https://ieeexplore.ieee.org/document/8370192/",
+            "code"          : "https://github.com/OpenSpace/OpenSpace", 
+        },
+        {
+            "title"         : "OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How",
+            "authors"       : [ "Bock, A.", "Axelsson, E.", "Emmart, C.", "Kuznetsova, M.", "Hansen, C.", "Ynnerman, A." ],
+            "venue"         : "IEEE Computer Graphics & Applications",
+            "year"          : "2018",
+            "type"          : "Paper",
+            "doi"           : "10.1109/MCG.2018.032421653",
+            "pdf"           : "papers/cga18-bock-openspace-what-to-how.pdf",
+            "bib"           : "papers/cga18-bock-openspace-what-to-how.bib",
+            "web"           : "https://ieeexplore.ieee.org/document/8370192/",
+            "code"          : "https://github.com/OpenSpace/OpenSpace", 
+        },
+        {
             "title"         : "Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization",
             "authors"       : [ "Bladin, K.", "Axelsson, E.", "Broberg, E.", "Emmart, C.", "Ljung, P.", "Bock, A.", "Ynnerman, A." ],
             "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
