@@ -3,7 +3,7 @@ var json = {
         {
             "title"         : "OpenSpace: Bringing NASA Missions to the Public",
             "authors"       : [ "Bock, A.", "Hansen, C.", "Ynnerman, A." ],
-            "venue"         : "IEEE Computer",
+            "venue"         : "IEEE Computer Graphics & Applications",
             "year"          : "2018",
             "type"          : "Paper",
             "doi"           : "10.1109/MCG.2018.053491735",
