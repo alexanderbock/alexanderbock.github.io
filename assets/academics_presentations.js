@@ -1,6 +1,24 @@
 var json = {
     "presentations": [
         {
+            "occasion"  : "Data Visualization Summit",
+            "title"     : "OpenSpace: Moving from What to How in Astrovisualization",
+            "location"  : "Boston, USA",
+            "year"      : "2018"
+        },
+        {
+            "occasion"  : "SIGGRAPH",
+            "title"     : "Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization",
+            "location"  : "Vancouver, Canada",
+            "year"      : "2018"
+        },
+        {
+            "occasion"  : "Thesis Defense",
+            "title"     : "Tailoring Visualization Applications for Tasks and Users",
+            "location"  : "Norrköping, Sweden",
+            "year"      : "2018"
+        },
+        {
             "occasion"  : "Evolutionary Robotics",
             "title"     : "OpenSpace: An open-source astrovisualization framework bridging the gap between scientists and the public",
             "location"  : "online",
@@ -185,19 +203,6 @@ var json = {
 $(function () {
     var theTemplateScript = $("#presentation-template").html();
     var theTemplate = Handlebars.compile(theTemplateScript);
-
-    // fetch('assets/publications.json')
-    // .then(function(response) {
-    //   if (!response.ok) {
-    //     throw Error(response.statusText);
-    //   }
-    //   return response.json();
-    // })
-    // .then(function(json) {
-        var theCompiledHtml = theTemplate(json);
-        $('.content-placeholder').html(theCompiledHtml);
-    // })
-    // .catch(function(error) {
-    //   console.log(error)
-    // })
+    var theCompiledHtml = theTemplate(json);
+    $('.content-placeholder').html(theCompiledHtml);
 })
