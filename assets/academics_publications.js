@@ -1,6 +1,18 @@
 var json = {
     "publications": [
         {
+            "title"         : "OpenSpace: A System for Astrographics",
+            "authors"       : [ "Bock, A.", "Axelsson, E.", "Costa, J.", "Payne, G.", "Acinapura, M.", "Trakinski, V.", "Emmart, C.", "Silva, C.", "Hansen, C.", "Ynnerman, A." ],
+            "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
+            "year"          : "2019",
+            "type"          : "Paper",
+            "doi"           : "10.1109/TVCG.2019.2934259",
+            "pdf"           : "papers/vis19-bock-openspace-system.pdf",
+            "bib"           : "papers/vis19-bock-openspace-system.bib",
+            "web"           : "https://ieeexplore.ieee.org/document/8805462",
+            "code"          : "https://github.com/OpenSpace/OpenSpace", 
+        },
+        {
             "title"         : "OpenSpace: Bringing NASA Missions to the Public",
             "authors"       : [ "Bock, A.", "Hansen, C.", "Ynnerman, A." ],
             "venue"         : "IEEE Computer Graphics & Applications",
