@@ -1,16 +1,66 @@
 var json = {
   "publications": [
     {
+      "title"         : "Interactive Visualization of Atmospheric Effects for Celestial Bodies",
+      "authors"       : [ "Costa, J.", "Bock, A.", "Emmart, C.", "Hansen, C.", "Ynnerman, A.", "Silva, C." ],
+      "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
+      "year"          : "2020",
+      "type"          : "Paper",
+      "doi"           : "10.1109/TVCG.2020.3030333",
+      "pdf"           : "papers/vis20-costa-atmosphere.pdf",
+      "bib"           : "papers/vis20-costa-atmosphere.bib",
+      "web"           : "https://ieeexplore.ieee.org/document/9222377",
+      "code"          : "https://github.com/OpenSpace/OpenSpace"
+    },
+    {
+      "title"         : "Unwind: Interactive Fish Straightening",
+      "authors"       : [ "Williams, F.", "Bock, A.", "Doraiswamy, H.", "Donatelli, C.", "Hall, K.", "Summers, A.", "Panozzo, D.", "Silva, C." ],
+      "venue"         : "Proceedings of the 2020 Conference on Human Factors in Computing Systems",
+      "year"          : "2020",
+      "type"          : "Paper",
+      "doi"           : "10.1145/3313831.3376846",
+      "pdf"           : "https://arxiv.org/pdf/1904.04890",
+      "bib"           : "papers/chi20-williams-unwind.bib",
+      "web"           : "https://github.com/fwilliams/unwind"
+    },
+    {
+      "title"         : "Reaching Broad Audiences from a Science Center or Museum Setting",
+      "authors"       : [ "Ynnerman, A.", "Ljung, P.", "Bock. A." ],
+      "venue"         : "Foundations of Data Visualization",
+      "year"          : "2020",
+      "type"          : "chapter",
+      "doi"           : "https://doi.org/10.1007/978-3-030-34444-3_19",
+      "bib"           : "papers/book20-ynnerman-broad-audiences.bib",
+      "web"           : "https://link.springer.com/chapter/10.1007/978-3-030-34444-3_19"
+    },
+    {
       "title"         : "OpenSpace: A System for Astrographics",
       "authors"       : [ "Bock, A.", "Axelsson, E.", "Costa, J.", "Payne, G.", "Acinapura, M.", "Trakinski, V.", "Emmart, C.", "Silva, C.", "Hansen, C.", "Ynnerman, A." ],
       "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
-      "year"          : "2020",
+      "year"          : "2019",
       "type"          : "Paper",
       "doi"           : "10.1109/TVCG.2019.2934259",
       "pdf"           : "papers/vis19-bock-openspace-system.pdf",
       "bib"           : "papers/vis19-bock-openspace-system.bib",
       "web"           : "https://ieeexplore.ieee.org/document/8805462",
       "code"          : "https://github.com/OpenSpace/OpenSpace", 
+    },
+    {
+      "title"         : "IDEAS: Immersive Dome Experiences for Accelerating Science",
+      "authors"       : [ "Faherty, J.", "SubbaRao, M.", "Wyatt, R.", "Ynnerman, A.", "deGrasse Tyson, N.", "Geller, A.", "Weber, M.", "Rosenfield, P.", "Steffen, W.", "Stoeckle, G.", "Weiskopf, D.", "Magnor, M.", "Williams, P.", "Abbott, B.", "Marchetti, L.", "Jarrett, T.", "Fay, J.", "Peek, J.", "Graur, O.", "Durrell, P.", "Homeier, D.", "Preston, H.", "Müller, T.", "Vos, J.", "Brown, D.", "Giorla, P.", "Rice, E.", "Bardalez Gagliuffi, D.", "Bock, A.", "Hedberg, J.", "Rosen, D.", "Emmart, C." ],
+      "venue"         : "ASTRO 2020 White Paper",
+      "year"          : "2019",
+      "type"          : "Paper",
+      "doi"           : "1907.05383",
+      "pdf"           : "https://arxiv.org/ftp/arxiv/papers/1907/1907.05383.pdf",
+      "bib"           : "papers/wp19-faherty-ideas.bib"
+    },
+    {
+      "title"         : "Globe Browsing in OpenSpace",
+      "authors"       : [ "Bladin, K.", "Bock, A.", "Ynnerman, A." ],
+      "venue"         : "Computer",
+      "year"          : "2018",
+      "type"          : "Paper"
     },
     {
       "title"         : "OpenSpace: Bringing NASA Missions to the Public",
