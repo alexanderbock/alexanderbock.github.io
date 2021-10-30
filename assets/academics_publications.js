@@ -1,6 +1,28 @@
 var json = {
   "publications": [
     {
+      "title": "OpenSpace Sonification: Complementing Visualization of the Solar System with Sound",
+      "authors": [ "Elmquist, E.", "Ejdbo, M.", "Bock, A.", "Rönnberg, N." ],
+      "venue": "International Community for Auditory Displays", 
+      "year": "2021",
+      "type": "Paper",
+      "doi": "",
+      "pdf": "",
+      "bib": "",
+      "web": ""
+    },
+    {
+      "title"         : "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, and Educating the Earth",
+      "authors"       : [ "Lan, F." , "Young, M.", "Anderson, L.", "Ynnerman, A.", "Bock, A.", "Borkin, M.", "Forbes, A.", "Kollmeier, J.", "Wang, B." ],
+      "venue"         : "Computer Graphics Forum",
+      "year"          : "2021",
+      "type"          : "Paper",
+      "doi"           : "10.1111/cgf.14332",
+      "pdf"           : "papers/cgf21-lan-young-star.pdf",
+      "bib"           : "papers/cgf21-lan-young-star.bib",
+      "web"           : "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14332"
+    },
+    {
       "title"         : "Interactive Visualization of Atmospheric Effects for Celestial Bodies",
       "authors"       : [ "Costa, J.", "Bock, A.", "Emmart, C.", "Hansen, C.", "Ynnerman, A.", "Silva, C." ],
       "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
