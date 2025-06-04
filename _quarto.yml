@@ -1,0 +1,55 @@
+project:
+  type: website
+  resources:
+    - assets/project_hermes.data
+    - assets/project_icarus.data
+    - papers/*
+
+website:
+  title: "Alex Bock"
+  navbar:
+    title: false
+    pinned: true
+    search: false
+    left:
+      - index.qmd
+      - text: Academics
+        menu:
+          - academics_publications.qmd
+          - academics_presentations.qmd
+          - academics_teaching.qmd
+          - academics_supervision.qmd
+      - projects.qmd
+      - openspace.qmd
+      - misc.qmd
+    tools:
+      - icon: email
+        href: mailto:mail@alexanderbock.eu
+      - icon: github
+        href: https://github.com/alexanderbock
+      - icon: twitter
+        href: https://www.twitter.com/AlexanderBock
+      - icon: linkedin
+        href: https://se.linkedin.com/in/alexanderbock1
+      - icon: google
+        href: https://scholar.google.com/citations?user=_mtmkZgAAAAJ
+      - icon: youtube
+        href: https://www.youtube.com/user/abock03
+      - icon: flower1
+        href: https://orcid.org/0000-0002-2849-6146
+      - icon: steam
+        href: http://steamcommunity.com/id/hijinxs
+
+format:
+  html:
+    theme:
+      - darkly
+      - assets/custom.scss
+    respect-user-color-scheme: true
+    css:
+      - assets/styles.css
+      - _extensions/quarto-ext/fontawesome/assets/css/all.min.css
+    toc: true
+
+
+

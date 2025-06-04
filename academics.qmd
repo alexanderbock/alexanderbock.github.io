@@ -1,0 +1,9 @@
+---
+title: "Academics"
+---
+
+  - [Publications](academics_publications.qmd)
+  - [Presentations](academics_presentations.qmd)
+  - [Teaching](academics_teaching.qmd)
+  - [Supervision](academics_supervision.qmd)
+

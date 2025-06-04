@@ -1,0 +1,85 @@
+---
+title: "Projects"
+---
+
+This page contains a list of different side projects (mostly programming related) that might be, in some form or another, interesting.  Most of them are archived on my [GitHub](https://github.com/AlexanderBock) page.
+
+
+## Walking Manhattan
+::: {#map_canvas_walking .img-float style="float: right; width: 512px; height: 400px"}
+:::
+
+This project is about walking as many of the streets of New York as possible and keeping track of my progress.  I started this project after moving to New York in 2017 and wanted to experience as much of the city as possible.  The data for this project is collected via a free GPS recorder (GPX Tracker) for my phone whenever I am taking a walk or walking back from the office.  The GPX data is first cleaned using an editor (GPX Track Editor) to make the rendering less intensive and then converted into less verbose format that also strips out any timing information for privacy reasons using a Python script.  The file is then parsed using JavaScript and rendered using the Google Maps API at the same time.
+
+Python, JavaScript
+
+
+## Flight Map
+::: {#map_canvas_flying .img-float style="float: right; width: 512px; height: 400px"}
+:::
+
+This is another project of me learning how to use Javascript and the Google Maps API, plotting all the flights that I have taken in my life.  The data is using the Google Maps API offline to retrieve longitude, latitude pairs based on the international airport codes and processing these into a data file.  That file is parsed in Javascript and rendered using the Google Maps API.
+
+Python, Javascript
+
+
+## 1 second everyday
+::: {.img-float}
+![](images/project-1se.jpg){style="float: right; margin: 5px; width: 512px"}
+:::
+
+This is a Python script that was inspired to create after watching a TED talk by Cesar Kuriyama ([link](http://www.ted.com/talks/cesar_kuriyama_one_second_every_day.html)]).  The idea is to be able to easily record one second of video footage every day and create one continuous video from it that captures the memories and thoughts of every day of one's life.  An iPhone app existed at the time to do this editing on the phone, but I was not really happy with the design of the app and didn't want to be locked to the iPhone for such a long term project.
+
+The script I created crawls a Dropbox directory and interfaces with [ffmpeg](https://ffmpeg.org) to extract one second for each of the videos in the directory.  There is configuration file to determine which second of a longer video to use and whether to apply other transformations (mostly converting portrait into landscape, rotating an image by 180 degrees, and upscaling older videos).  It then adds the date of that video (based off the file name) in either white or black text and reencodes all one second videos into one long video.  All of the original videos are kept to prevent a quality degredation that would otherwise occur if new frames are added to an existing file.  I have been doing this since December 2013 and unfortunately missed many days since, but it is an experience that I can recommend to everyone.
+
+[GitHub](https://github.com/alexanderbock/1-second-everyday), Python
+
+## AAA Combat Simulator
+::: {.img-float}
+![](images/project-aaa.jpg){style="float: right; margin: 5px; width: 512px"}
+:::
+
+This project is a combat simulator for the popular strategy board game Axis & Allies.  Upon entering the number of units that participate in a battle for each side, the simulator will perform a large number of simulated battles and return the percentage of winning, as well as the amount of IPC damage inflicted on either party.  It uses online resources to populate various scenarios that can be played in the free online version of the boardgame, [TripleA](http://www.triplea-game.org/).  This application was the primary reason behind the development, but a decent simulator has since been included in TripleA itself.
+
+[GitHub](https://github.com/alexanderbock/aaa-combat-simulator), C++ with Qt
+
+
+## Combat Ally
+::: {.img-float}
+![](images/project-ca.jpg){style="float: right; margin: 5px; width: 512px"}
+:::
+
+This application was designed to support a dungeon master when heading a Dungeons & Dragons 4th Edition session.  In the application it is possible to add an arbitrary number of enemies and keep track of their original hitpoints, current hitpoints and afflictions.  Based off the total and current hitpoints the _bloodied_ stat is signaled, as well.
+
+[GitHub](https://github.com/alexanderbock/combatally), C++ with Qt
+
+
+## APOD Wallpaper
+::: {.img-float}
+![](images/project-apod.jpg){style="float: right; margin: 5px; width: 512px"}
+:::
+This Python script is meant to automatically execute every day and will download the current Astronomy Picture of the Day ([APOD](http://apod.nasa.gov/apod/astropix.html)) and set it as the desktop background.  It currently only supports setting the background picture on Windows using the WIN32 API.
+
+[GitHub](https://github.com/alexanderbock/apodwallpaper), Python
+
+
+## Stammbaum
+This application is a simple graphing tool for a family tree.  It was meant as a way to easily collect information about distant family members an keep all information organized in a custom database format.
+
+[GitHub](https://github.com/alexanderbock/stammbaum), C++ with Qt
+
+
+## Character Status
+This application was an iOS application on the AppStore used to replace a physical character sheet in Dungeons & Dragons 4th Edition.  It kept track of stats, skills, afflictions, hitpoints, armor class, powers, and all other important aspects of a character.  It has since fallen into disrepair and has been removed from sale in the App Store.
+
+Objective-C
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBn5PBZQvKaBwBE7tFATmq28dsu-tp43o">
+</script>
+<script src="assets/project_hermes.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/project_icarus.js" type="text/javascript" charset="utf-8"></script>

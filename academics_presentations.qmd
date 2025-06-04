@@ -1,0 +1,21 @@
+---
+title: "Presentations"
+---
+
+```{python}
+#| echo: false
+
+from IPython.display import display, HTML
+from jinja2 import Environment, FileSystemLoader
+import json
+
+with open("assets/academics_presentations.json") as f:
+  data = json.load(f)
+
+environment = Environment(loader=FileSystemLoader("assets"))
+template = environment.get_template("academics_presentations.html.jinja")
+output = template.render(
+  presentations=data["presentations"]
+)
+display(HTML(output))
+```

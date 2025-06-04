@@ -1,0 +1,36 @@
+---
+title: "Publications"
+---
+
+```{python}
+#| echo: false
+
+from IPython.display import display, HTML
+from jinja2 import Environment, FileSystemLoader
+import json
+
+def recursive_authors(res, lst):
+  if len(lst) == 1:
+    if not res:
+      return lst[0], []
+    else:
+      res += " and " + lst[0]
+      return res, []
+  else:
+    res += lst[0] + ", "
+    return recursive_authors(res, lst[1:])
+
+def authorList(lst):
+  return recursive_authors("", lst)[0]
+
+with open("assets/academics_publications.json") as f:
+  data = json.load(f)
+
+environment = Environment(loader=FileSystemLoader("assets"))
+template = environment.get_template("academics_publications.html.jinja")
+output = template.render(
+  publications=data["publications"],
+  authorList=authorList
+)
+display(HTML(output))
+```

@@ -1,0 +1,13 @@
+---
+title: "Home"
+---
+
+::: {.img-float}
+![](images/profile.jpg){style="float: right; margin: 5px; width: 250px"}
+:::
+
+Hello and welcome to my personal homepage. I am currently a [Moore-Sloan Data Science Fellow](https://msdse.org) in the [Center for Data Science](https://cds.nyu.edu) at [New York University](https://www.nyu.edu) and the Development Lead for the [OpenSpace](https://openspaceproject.com) project. This page contains a collection of my various private and professional projects, academical achievements, musings about the development of, various miscellenous items, as well as a curriculum vitæ. The picture shows me together with Charlie Duke after flying him back to his Moon landing location from Apollo 16.
+
+In my research during my PhD studies and as a fellow, I am studying and using Visualization techniques to generate applications that can make difficult data, for example CT/MRI scans or astronomical datasets, easier to understand for a specific target audience, such as domain experts or the general public. Previous projects covered areas from biomedical simulations, deep-brain stimulation visualizations, urban search and rescue applications, topological analyses used for segmentation of fishes, as well as various astronomical and astrophysical phenomena. [This](academics.qmd) page contains a full list of publications and presentations for the interested reader.
+
+[OpenSpace](https://openspaceproject.com) is an open-source, collaborative project that aims at visualizing the entire cosmos. The project is a collaboration between [Linköping University](https://liu.se) in Sweden, the [American Museum of Natural History](https://amnh.org) in New York, the [Community Coordinated Modeling Center](https://ccmc.gsfc.nasa.gov) at NASA's Goddard Space Flight Center, [New York University](https://nyu.edu), and the University of Utah's [Scientific Computing and Imaging Institute](https://sci.utah.edu). The software is used for interactive visualization of astronomical and astrophysical phenomena and has been used in a variety of events. On July 15th, 2015 OpenSpace was used to visualize New Horizon's flyby at Pluto in an event hosted by the American Museum of Natural History called [Breakfast at Pluto](https://www.youtube.com/watch?v=oEFz5JxLd8w). Other projects included visualizations of ESA's [Rosetta](https://www.youtube.com/watch?v=Ap4EgRi_ukM) spacecraft, as well as planetary renderings on [Earth](https://www.youtube.com/watch?v=3exuifro1aM) and [Mars](https://www.youtube.com/watch?v=NWZAg6qpMlE). The most recent visualization was a live presentation in the Hayden Planetarium providing information about the [Sun-Earth connection](https://www.youtube.com/watch?v=rDDjcxBP6ag) and the effect of Space Weather on it.
