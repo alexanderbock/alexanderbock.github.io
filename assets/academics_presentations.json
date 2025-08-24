@@ -1,6 +1,168 @@
 {
   "presentations": [
     {
+      "occasion"  : "OpenSpace User Meeting",
+      "title"     : "Various Presentations",
+      "location"  : "New York City, USA",
+      "year"      : "2025"
+    },
+    {
+      "occasion"  : "Dagstuhl Provocations",
+      "title"     : "Born in the Lab, Broken in the Wild?",
+      "location"  : "Schloss Dagstuhl, Germany",
+      "year"      : "2025"
+    },
+    {
+      "occasion"  : "Configura Allhands",
+      "title"     : "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums",
+      "location"  : "Bloemfontein, South Africa",
+      "year"      : "2025"
+    },
+    {
+      "occasion"  : "OpenSpace Workshop",
+      "title"     : "OpenSpace",
+      "location"  : "Bloemfontein, South Africa",
+      "year"      : "2025"
+    },
+    {
+      "occasion"  : "International Planetarium Society",
+      "title"     : "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums",
+      "location"  : "Berlin, Germany",
+      "year"      : "2024"
+    },
+    {
+      "occasion"  : "Hungarian Center for Excellence",
+      "title"     : "Visualization Center C and OpenSpace",
+      "location"  : "Dome, Norrköping",
+      "year"      : "2024"
+    },
+    {
+      "occasion"  : "Open House Linköping University",
+      "title"     : "OpenSpace",
+      "location"  : "Remote",
+      "year"      : "2024"
+    },
+    {
+      "occasion"  : "Mobile Planetarium Network",
+      "title"     : "OpenSpace",
+      "location"  : "Remote",
+      "year"      : "2024"
+    },
+    {
+      "occasion"  : "ESA Space Group",
+      "title"     : "OpenSpace",
+      "location"  : "Darmstadt, Germany",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "Invited Talk",
+      "title"     : "OpenSpace: Using an Astronomy Visualization Platform for Applications in Biology",
+      "location"  : "Basel, Switzerland",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "Platform for Advanced Scientific Computing",
+      "title"     : "OpenSpace: Visualizing the Entire Universe using Open-Source Software",
+      "location"  : "Davos, Switzerland",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "MolVA Workshop",
+      "title"     : "Moliverse: Contextually embedding the Microcosmos into the Universe",
+      "location"  : "Leipzig, Germany",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "Molecular Visualization Day",
+      "title"     : "Moliverse: Contextually embedding the Microcosmos into the Universe",
+      "location"  : "Dome, Norrköping",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "Joint Invited Talk",
+      "title"     : "OpenSpace: Visualizing the Universe",
+      "location"  : "Scientific Computing and Imaging Intitute, University of Utah, USA",
+      "year"      : "2023"
+    },
+    {
+      "occasion"  : "Popular Science Week",
+      "title"     : "OpenSpace: Combining Science and Education Tools in Astronomy",
+      "location"  : "Remote",
+      "year"      : "2022"
+    },
+    {
+      "occasion"  : "Culture Night",
+      "title"     : "OpenSpace: Visualizing the entire universe using open-source software",
+      "location"  : "Dome, Norrköping",
+      "year"      : "2022"
+    },
+    {
+      "occasion"  : "EuroVis VisGap Keynote",
+      "title"     : "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums",
+      "location"  : "Rome, Italy",
+      "year"      : "2022"
+    },
+    {
+      "occasion"  : "Swedish Royal Academy Astrovisualization Workshop",
+      "title"     : "OpenSpace: An open-source astrovisualization framework to visualize the universe",
+      "location"  : "Dome, Norrköping",
+      "year"      : "2022"
+    },
+    {
+      "occasion"  : "Seeing the Future workshop",
+      "title"     : "OpenSpace: Visualizing the Universe",
+      "location"  : "New Castle, USA",
+      "year"      : "2022"
+    },
+    {
+      "occasion"  : "Expo 2020",
+      "title"     : "OpenSpace Live Presentations",
+      "location"  : "Dubai, UAE",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "SeRC Workshop",
+      "title"     : "OpenSpace: An open-source astrovisualization framework to visualize the universe",
+      "location"  : "Remote",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "USCS CROSS Symposium",
+      "title"     : "OpenSpace: An open-source astrovisualization framework to visualize the universe",
+      "location"  : "Remote",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "Vetenskapsdagen",
+      "title"     : "OpenSpace: Visualizing the Universe",
+      "location"  : "Dome, Norrköping",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "SIGGRAPH",
+      "title"     : "Interactive Visualization of Atmospheric Effects for Celestial Bodies",
+      "location"  : "Recorded",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "British Computer Society",
+      "title"     : "OpenSpace: An open-source astrovisualization framework to visualize the universe",
+      "location"  : "Remote",
+      "year"      : "2021"
+    },
+    {
+      "occasion"  : "Vis Astro Workshop",
+      "title"     : "OpenSpace: Bridging the Gap. Bringing Expert Tools into Planetariums and Living Rooms",
+      "location"  : "IEEE Vis (remote)",
+      "year"      : "2020"
+    },
+    {
+      "occasion"  : "Vis+Astro Workshop",
+      "title"     : "OpenSpace: An Open-source Bridge between Scientists and the Public",
+      "location"  : "SCI Institute (remote)",
+      "year"      : "2020"
+    },
+    {
       "occasion"  : "IEEE Vis",
       "title"     : "OpenSpace: A system for astrographics",
       "location"  : "Vancouver, Canada",

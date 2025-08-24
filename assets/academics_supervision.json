@@ -1,6 +1,24 @@
 {
   "supervisions": [
     {
+      "year"       : "",
+      "name"       : "Emma Broberg",
+      "title"      : "PhD student",
+      "thesis"     : "",
+      "university" : "Linköping University",
+      "role"       : "Co-Advisor",
+      "ongoing"    : true
+    },
+    {
+      "year"       : "",
+      "name"       : "Malin Ejdbo",
+      "title"      : "PhD student",
+      "thesis"     : "",
+      "university" : "Linköping University",
+      "role"       : "Co-Advisor",
+      "ongoing"    : true
+    },
+    {
       "year"       : "2025",
       "name"       : "Wilhelm Björkström & Emil Wallberg",
       "title"      : "An Interactive Black Hole Visualisation in OpenSpace",

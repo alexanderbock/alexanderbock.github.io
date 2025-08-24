@@ -14,8 +14,6 @@ with open("assets/academics_supervision.json", encoding="utf-8") as f:
 
 environment = Environment(loader=FileSystemLoader("assets"))
 template = environment.get_template("academics_supervision.html.jinja")
-output = template.render(
-  supervisions=data["supervisions"]
-)
+output = template.render(supervisions=data["supervisions"])
 display(HTML(output))
 ```
