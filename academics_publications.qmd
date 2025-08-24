@@ -2,6 +2,8 @@
 title: "Publications"
 ---
 
+For more information also check my [Google Scholar](https://scholar.google.com/citations?user=_mtmkZgAAAAJ&hl=en) account.
+
 ```{python}
 #| echo: false
 
@@ -23,7 +25,7 @@ def recursive_authors(res, lst):
 def authorList(lst):
   return recursive_authors("", lst)[0]
 
-with open("assets/academics_publications.json") as f:
+with open("assets/academics_publications.json", encoding="utf-8") as f:
   data = json.load(f)
 
 environment = Environment(loader=FileSystemLoader("assets"))

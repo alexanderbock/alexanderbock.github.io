@@ -9,7 +9,7 @@ from IPython.display import display, HTML
 from jinja2 import Environment, FileSystemLoader
 import json
 
-with open("assets/academics_supervision.json") as f:
+with open("assets/academics_supervision.json", encoding="utf-8") as f:
   data = json.load(f)
 
 environment = Environment(loader=FileSystemLoader("assets"))
