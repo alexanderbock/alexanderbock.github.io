@@ -1,0 +1,27 @@
+# Academics
+
+This page contains information about my academic achievements such as my publication list, presentations, as well as people that I had the pleasure of supervising and examine over the years.
+
+## Publications
+
+```{=html}
+{{< include _generated/publications.html >}}
+```
+
+## Presentations
+This list does not contain individual lectures or presentation to a limited audience, such for scientific groups. Presentations with stars where co-hosted. 
+
+```{=html}
+{{< include _generated/presentations.html >}}
+```
+
+## Teaching
+```{=html}
+{{< include _generated/teachings.html >}}
+```
+
+## Supervision
+
+```{=html}
+{{< include _generated/supervisions.html >}}
+```

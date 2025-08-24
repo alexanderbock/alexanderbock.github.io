@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  pre-render: assets/prepare-tables.py
+  resources:
+    - fonts
+    - papers
+    - assets/project_hermes*
+    - assets/project_icarus*
+
+website:
+  title: "Alexander Bock"
+  navbar:
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - academics.qmd
+      - projects.qmd
+      - openspace.qmd
+
+format:
+  html:
+    theme:
+      - slate
+    css: css/styles.css
+    toc: true
+
+lightbox: true
+execute:
+  echo: false

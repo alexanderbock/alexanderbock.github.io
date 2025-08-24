@@ -1,0 +1,38 @@
+<div>
+  {% for supervision in supervisions %}
+    <div class="tabular">
+      <div style="float: right; text-align: right; margin-left: 10px">
+        <span>
+        {% if supervision.year %}
+          <a href="https://www.wikiwand.com/en/{{ supervision.year }}" class="tabular-year">{{ supervision.year }}</a>
+        {% else %}
+          <div class="tabular-year">&nbsp;</div>
+        {% endif %}
+        </span>
+        <div>
+          {% if supervision.thesis %}
+            <a href="{{ supervision.thesis }}">
+              <span class="fa fa-file-pdf-o tabular-icon" title="thesis: {{ supervision.thesis }}"></span>
+            </a>
+          {% else %}
+            <span class="tabular-icon">&nbsp;</span>
+          {% endif %}
+        </div>
+        <span class="tabular-type">{{ supervision.role }}</span>
+      </div>
+      <div>
+        <span class="tabular-first-line">{{ supervision.name }}</span>
+      </div>
+      <div>
+        <span class="tabular-second-line">{{ supervision.title }}</span>
+      </div>
+      <div>
+        {% if supervision.location %}
+          <span class="tabular-third-line">{{ supervision.location }} @ {{ supervision.university }}</span>
+        {% else %}
+          <span class="tabular-third-line">{{ supervision.university }}</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

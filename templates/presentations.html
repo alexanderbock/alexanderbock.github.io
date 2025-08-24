@@ -1,0 +1,26 @@
+<div>
+  {% for presentation in presentations %}
+    <div class="tabular">
+      <div style="float: right; text-align: right; margin-left: 10px">
+        <span><a href="https://www.wikiwand.com/en/{{ presentation.year }}" class="tabular-year">{{ presentation.year }}</a></span>
+        <div>
+          {% if presentation.video %}
+            <a href="{{ presentation.video }}"><span class="fa fa-video-camera tabular-icon" title="video: {{ presentation.video }}"></span></a>
+          {% else %}
+            <span class="tabular-icon">&nbsp;</span>
+          {% endif %}
+        </div>
+        <span class="tabular-type">{{ presentation.type }}</span>
+      </div>
+      <div>
+        <span class="tabular-first-line">{{ presentation.title }}</span>
+      </div>
+      <div>
+        <span class="tabular-second-line">{{ presentation.occasion }}</span>
+      </div>
+      <div>
+        <span class="tabular-third-line">{{ presentation.location }}</span>
+      </div>
+    </div>
+  {% endfor %}
+</div>

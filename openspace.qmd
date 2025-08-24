@@ -1,0 +1,89 @@
+# OpenSpace
+
+[](images/openspace-icon.png){align="right" width="128"}
+
+This page will contain different musings about the development of [OpenSpace](https://openspaceproject.com) for which I am responsible as the Lead Developer.  As said on the main page, OpenSpace is an [open-source](https://github.com/OpenSpace/OpenSpace), collaborative project that aims at visualizing the entire cosmos.  The project is a collaboration between [Linköping University](https://liu.se) in Sweden, the [American Museum of Natural History](https://www.amnh.org) in New York, the [Community Coordinated Modeling Center](https://ccmc.gsfc.nasa.gov) at NASA's Goddard Space Flight Center, [New York University](https://nyu.edu), and the University of Utah's [Scientific Computing and Imaging Institute](https://www.sci.utah.edu).  The software is used for interactive visualization of astronomical and astrophysical phenomena and has been used in a variety of events.  On July 15<sup>th</sup>, 2015 OpenSpace was used to visualize New Horizon's flyby at Pluto in an event hosted by the American Museum of Natural History called [Breakfast at Pluto](https://www.youtube.com/watch?v=oEFz5JxLd8w).  Other projects included visualizations of ESA's [Rosetta](https://www.youtube.com/watch?v=Ap4EgRi_ukM) space craft, as well as planetary renderings on [Earth](https://www.youtube.com/watch?v=3exuifro1aM) and [Mars](https://www.youtube.com/watch?v=NWZAg6qpMlE&t=2580s).  The most recent visualization was a live presentation in the Hayden Planetarium providing information about the [Sun-Earth connection] (https://www.youtube.com/watch?v=rDDjcxBP6ag)and the effect of Space Weather on it.
+
+Images and a selection videos are available on the project [homepage](https://openspaceproject.com) as well as on its [YouTube](https://youtube.com/OpenSpaceSoftware) page.
+
+Funding and support for the project is provided by the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org), [the Swedish e-Science Research Center](https://www.e-science.se), the [Excellence Centre at Linköping-Lund in Information Technology](https://www.liu.se/elliit), as well as NASA under award No NNX16AB93A.
+
+## Planetary Surfaces
+One of the large aspects of the software is high-fidelity rendering of planetary surfaces around the solar system.  Examples of available datasets include Earth, the Moon, and Mars among others.
+{group="my-gallery"}
+
+![](images/openspace-planetary-1.jpg){width="33%" group="planetary"}
+
+![](images/openspace-planetary-2.jpg){width="33%" group="planetary"}
+
+![](images/openspace-planetary-3.jpg){width="33%" group="planetary"}
+
+
+## Space Weather
+Throughout the development of OpenSpace, the Community Coordinated Modeling Center at NASA Goddard Space Flight Center has been driving the development of the platform towards supporting the scientists in analyzing and disseminating space weather phenomena.
+
+![](images/openspace-spaceweather-1.jpg){width="33%" group="spaceweather"}
+
+![](images/openspace-spaceweather-2.jpg){width="33%" group="spaceweather"}
+
+![](images/openspace-spaceweather-3.jpg){width="33%" group="spaceweather"}
+
+
+## Rosetta
+After the image projections that were performed with the camera of the New Horizons space craft, we focussed ourselves towards visualizing ESA's Rosetta mission around the comet 67P/Churyumov–Gerasimenko.
+
+![](images/openspace-2016-rosetta-1.jpg){width="33%" group="rosetta"}
+
+![](images/openspace-2016-rosetta-2.jpg){width="33%" group="rosetta"}
+
+![](images/openspace-2016-rosetta-3.jpg){width="33%" group="rosetta"}
+
+
+## Milky Way
+These are some of the initial renderings of the Digital Universe stars combined with the Milkyway background texture that was used for the Dark Universe production.
+
+![](images/openspace-milkyway-1.jpg){width="33%" group="milkyway"}
+
+![](images/openspace-milkyway-2.jpg){width="33%" group="milkyway"}
+
+![](images/openspace-milkyway-3.jpg){width="33%" group="milkyway"}
+
+
+## Pluto Flyby 2015
+On July 14th, 2015 the New Horizons space craft finally made its closest approach at Pluto and Charon and acquired lots of images and scientific measurements from the system.  During the approach, we organized a worldwide event with around 1000 people watching the events unfold live from within OpenSpace.  The event was also live-streamed to [YouTube](https://www.youtube.com/watch?v=oEFz5JxLd8w).
+
+![](images/openspace-2015-pluto-1.jpg){width="33%" group="pluto"}
+
+![](images/openspace-2015-pluto-2.jpg){width="33%" group="pluto"}
+
+![](images/openspace-2015-pluto-3.jpg){width="33%" group="pluto"}
+
+
+## Pluto Palooza 2015
+On May 14th, 2015 the New Horizons Team's Pluto Palooza event came to the American Museum of Natural History in New York where we presented our, still ongoing, New Horizons developments to the team.
+
+![](images/openspace-2015-palooza-1.jpg){width="33%" group="palooza"}
+
+![](images/openspace-2015-palooza-2.jpg){width="33%" group="palooza"}
+
+![](images/openspace-2015-palooza-3.jpg){width="33%" group="palooza"}
+
+
+## Imersa 2015
+February 2015 in Denver, USA was the first public view of OpenSpace outside of a tight inner circle.  Carter Emmart presented the ongoing developments of OpenSpace to a public in the local planetarium.  Since it was also the first time of running OpenSpace outside of the planetarium-comfort zone of the Norrköping Dome and the Hayden, it was quite the challenging experience:
+
+![](images/openspace-2015-imersa-1.jpg){width="33%" group="imersa"}
+
+![](images/openspace-2015-imersa-2.jpg){width="33%" group="imersa"}
+
+![](images/openspace-2015-imersa-3.jpg){width="33%" group="imersa"}
+
+
+## About two months into the project
+Everything looked very different back in February of 2014.  These were some of the first renderings using the Power Scaled Coordinates, a concept that was later abandoned for a Dynamic Scene Graph structure.
+
+![](images/openspace-earliest-1.jpg){width="33%" group="prototype"}
+
+![](images/openspace-earliest-2.jpg){width="33%" group="prototype"}
+
+![](images/openspace-earliest-3.jpg){width="33%" group="prototype"}
