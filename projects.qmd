@@ -25,7 +25,7 @@ Python, Javascript
 
 ## 1 second everyday
 ::: {.img-float}
-![](images/project-1se.jpg){style="float: right; margin: 5px; width: 512px"}
+![](images/project-1se.webp){style="float: right; margin: 5px; width: 512px"}
 :::
 
 This is a Python script that was inspired to create after watching a TED talk by Cesar Kuriyama ([link](http://www.ted.com/talks/cesar_kuriyama_one_second_every_day.html)]).  The idea is to be able to easily record one second of video footage every day and create one continuous video from it that captures the memories and thoughts of every day of one's life.  An iPhone app existed at the time to do this editing on the phone, but I was not really happy with the design of the app and didn't want to be locked to the iPhone for such a long term project.
@@ -36,7 +36,7 @@ The script I created crawls a Dropbox directory and interfaces with [ffmpeg](htt
 
 ## AAA Combat Simulator
 ::: {.img-float}
-![](images/project-aaa.jpg){style="float: right; margin: 5px; width: 512px"}
+![](images/project-aaa.webp){style="float: right; margin: 5px; width: 512px"}
 :::
 
 This project is a combat simulator for the popular strategy board game Axis & Allies.  Upon entering the number of units that participate in a battle for each side, the simulator will perform a large number of simulated battles and return the percentage of winning, as well as the amount of IPC damage inflicted on either party.  It uses online resources to populate various scenarios that can be played in the free online version of the boardgame, [TripleA](http://www.triplea-game.org/).  This application was the primary reason behind the development, but a decent simulator has since been included in TripleA itself.
@@ -46,7 +46,7 @@ This project is a combat simulator for the popular strategy board game Axis & Al
 
 ## Combat Ally
 ::: {.img-float}
-![](images/project-ca.jpg){style="float: right; margin: 5px; width: 512px"}
+![](images/project-ca.webp){style="float: right; margin: 5px; width: 512px"}
 :::
 
 This application was designed to support a dungeon master when heading a Dungeons & Dragons 4th Edition session.  In the application it is possible to add an arbitrary number of enemies and keep track of their original hitpoints, current hitpoints and afflictions.  Based off the total and current hitpoints the _bloodied_ stat is signaled, as well.
@@ -56,7 +56,7 @@ This application was designed to support a dungeon master when heading a Dungeon
 
 ## APOD Wallpaper
 ::: {.img-float}
-![](images/project-apod.jpg){style="float: right; margin: 5px; width: 512px"}
+![](images/project-apod.webp){style="float: right; margin: 5px; width: 512px"}
 :::
 This Python script is meant to automatically execute every day and will download the current Astronomy Picture of the Day ([APOD](http://apod.nasa.gov/apod/astropix.html)) and set it as the desktop background.  It currently only supports setting the background picture on Windows using the WIN32 API.
 

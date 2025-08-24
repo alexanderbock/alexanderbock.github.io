@@ -4,26 +4,66 @@ title: "Misc"
 
 This page contains a list of other interesting aspects that I want to share in one way or another.  If you read this page and we meet, any of these topics will be a good conversation starter that could last an entire evening.
 
-## Rocket League
+
+## Gaming
+### RimWorld
 ::: {.img-float}
-![](images/rocket-league.png){style="float: right; margin: 5px; width: 250px"}
+![](images/rimworld.webp){style="float: right; margin: 5px; width: 250px"}
 :::
 
-Rocket League has been my Esport of choice both for watching and playing for a long time now.  I started playing it basically when I arrived on Steam and have been quite [decent](https://rocketleague.tracker.network/profile/steam/76561198025172966) at it as well.  For people who don't know the game, it is exactly what you imagine if you combine Football and Cars.  A predecessor made by the same team probably had a more descriptive name: Supersonic Acrobatic Rocket-Powered Battle-Cars.  Anyways, it's a great sport to get into watching Esports online.
+Building colonies and managing small pawns that constantly want to kill themselves while trying not to commit war-crimes. At the time of writing, this is my most played game on Steam and it is a fantastic game to play while watching some YouTube videos that only require half-attention.
 
-## Kerbal Space Program
+### Rocket League
 ::: {.img-float}
-![](images/kerbal-space-program.png){style="float: right; margin: 5px; width: 250px"}
+![](images/rocket-league.webp){style="float: right; margin: 5px; width: 250px"}
+:::
+
+Rocket League has been my Esport of choice both for watching and playing for many years..  I started playing it basically when I arrived on Steam and have been quite [decent](https://rocketleague.tracker.network/profile/steam/76561198025172966) at it as well.  For a variety of reasons I stopped playing a few years ago, but it is still a great amount of fun!  For people who don't know the game, it is exactly what you imagine if you combine Football and Cars.  A predecessor made by the same team probably had a more descriptive name: Supersonic Acrobatic Rocket-Powered Battle-Cars.
+
+### Factorio
+::: {.img-float}
+![](images/factorio.webp){style="float: right; margin: 5px; width: 250px"}
+:::
+
+This is a real-time automation game where you have to constantly expand your factory to construct more and more elaborate production chains, all while defending everything from the ever-present bugs on the planet. It's the perfect "Just 5 more minutes" game.
+
+### Kerbal Space Program
+::: {.img-float}
+![](images/kerbal-space-program.webp){style="float: right; margin: 5px; width: 250px"}
 :::
 
 At the time of writing, my second most favorite game on Steam.  It is basically "Orbital Mechanics, The Game" with a bit of "Babies first Tsiolkovsky Rocket Equation" thrown in for good measure.  As per usual [Randall Munroe](https://xkcd.com/1356) probably described it the best.  If you ask me, going RP-0 with Real Scale Solar system is the only way to live (and get very, **very** frustrated). Unfortunately, the second version of the game was not great and everything around it seems to be dead now.
 
+
 ## Productivity
 ::: {.img-float}
-![](https://images-na.ssl-images-amazon.com/images/I/51TLWMEVT0L._SX324_BO1,204,203,200_.jpg){style="float: right; margin: 5px; width: 250px"}
+![](images/gtd.webp){style="float: right; margin: 5px; width: 250px"}
 :::
 
 Although the book as aged quite badly, I can still recommend David Allen's [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) book for everyone.  Combining the ideas of this book with a modern TODO list app (I have been using [Todoist](https://en.todoist.com) for a while now after switching away from [Omnifocus](https://www.omnigroup.com/omnifocus)) really helps reducing stress levels in addition to increasing productivity.  In addition to that, throw in a bit of [Pomodoro](http://www.marinaratimer.com) magic and keep those new tasks coming.
+
+
+## Cool Tools
+This is a list of various tools that I use more-or-less regularly that help with organization, productivity, and other tasks. None of them will be interesting for everyone, but a few might be useful for some.
+  - [_Obsidian_](https://obsidian.md/): A (mostly) Markdown file based knowledge database and notes-taking application. While it is possible to synchronize files using their paid service, the software is agnostic to the location of the files and supports Drobox, Google Drive, etc. Basically Notion, but local.
+  - [_Quarto_](https://quarto.org/): A publishing system that converts Markdown and Python code into documents, presentations, or websites (such as this one).
+  - [_VS Code_](https://code.visualstudio.com/): Probably the best code editor that is currently around, following in the footsteps of Notepad++ and Sublime Tetx
+
+  - [_Autohotkey_](https://www.autohotkey.com): A powerful scripting language that execute complex actions through keyboard shortcuts. Almost anything that is doable in Windows can be automated through AHK.
+  - [_ImageMagick_](https://imagemagick.org/): Image conversion tool that supports almost any image format. Also has tools to edit the images in a procedural manner and is thus very batch-friendly.
+  - [_Microsoft PowerToys_](https://github.com/microsoft/PowerToys): Many features for more advanced users of Windows, such as a better clipboard handling, window management, etc. Would recommend that for anyone using Windows as a working environment.
+  - [_Milton_](https://miltonpaint.com): An open-source vector drawing problem that is great for quick drawings when trying to explain complex concepts.
+  - [_Pandoc_](https://www.github.com/jgm/pandoc): A document conversion tool that supports many file types, being able to generate Word documents from Markdown, PDFs from text files, etc etc.
+  - [_Parsec_](https://parsec.app): A fantastic remote control application with ultra-low latency and multi-monitor support. More than once I didn't actually realize that I was watching a video on the remote computer, it's that great.
+  - [_RenderDoc_](https://renderdoc.org/): Anyone who does any OpenGL development needs this frame analyze that allows you to dissect any OpenGL frame and look at the rendering pipeline, textures, etc.
+  - [_Fork_](https://git-fork.com/): In my view the best visual interface for Git.
+  - [_VLC_](https://www.videolan.org/vlc/): Who hasn't heard of VLC
+  - [_OBS_](https://obsproject.com/): An open-source screen recording software that I have been using for more than a decade at this point.
+  - [_SpeedCrunch_](https://heldercorreia.bitbucket.io/speedcrunch/): A great calculator with support for easy unit conversions, including interactively defining new units.
+  - [_vdo.ninja_](https://vdo.ninja): A swiss army tool of video capturing and sharing. Using WebRTC, it is possible to capture anything and then either include it in OBS as a Browser or share a link with anyone to watch.
+  - [_yt-dlp_](https://github.com/yt-dlp/yt-dlp): A great tool to download videos from many video sharing platforms.
+  - [_winget_](https://github.com/microsoft/winget-cli): `apt` for Windows. Makes it trivially easy to update software using the commandline or setup a new computer with a single line of code to install all software that you would want.
+  - [_Todoist_](https://en.todoist.com): A great light-weight Todo tracking app that has great API interfaces, too.
 
 
 ## Podcasts
@@ -31,7 +71,7 @@ Listening to podcasts has been another staple of entertainment in my life for wa
 
   - [https://www.bbc.co.uk/programmes/p04b1g3c](_50 Things That Made the Modern Economy_): A BBC podcast where the title gives everything away.  They cover the 50 biggest inventions that shaped the world around us into what it is today.
   - [https://99percentinvisible.org](_99 Percent Invisible_): Roman Mars explaining the design aspects of things that are around us daily but to which we normally don't pay any attention.
-  - [https://www.relay.fm/cortex](_Cortex_): CGP Grey and Myke Hurley's two-dudes-talking podcast about productivity and their careers.  Very useful to listen to other people talking about their self-employment careers.
+  - _Captains Speaking_: Two professional 737 pilots discuss all things aviation. A great source of insider gossip and learning things you never knew you wanted to know.
   - [https://cppcast.com/](_CppCast_): A for C++ developers.  Discussion topics range from new and interesting libraries over language features all the way to C++ standard discussions.
   - [https://freakonomics.com/](_Freakonomics Radio_): One of the two economics-focussed podcasts on my list.  It can be quite enlightening to listen how other people reason about the world and learn interesting facts in the process.
   - [https://www.nodumbquestions.fm](_No Dumb Questions_): One more entry from the two-dudes-talking genre of podcasts.  Destin Sandlin (Smarter Every Day) and Matt Whitman (10 Minute Bible Hour) discussing arbitrary topics.
@@ -42,13 +82,14 @@ Listening to podcasts has been another staple of entertainment in my life for wa
   - [https://trumpconlaw.com](What Trump Can Teach Us About Con Law / What Roman Mars can Learn about Con Law): A second podcast by Roman Mars where he and Professor Elizabeth Joh discuss the current political news through the looking glass of Constitutional Law.
 
 ### Previous
+  - [https://www.relay.fm/cortex](_Cortex_): CGP Grey and Myke Hurley's two-dudes-talking podcast about productivity and their careers.  Very useful to listen to other people talking about their self-employment careers.
   - [https://www.thejimquisition.com/podquisition](_Podquisition_): Jim Sterling's (The Jimquisition), Laura K Dale's, and Gavin Dunne's (Miracle of Sound) podcast that is, mostly, about video games and to keep up to date on video game news.
   - [https://www.hellointernet.fm](_Hello Internet_): Brady Haran and CGP Grey's two-dudes-talking podcast.  This is also about any arbitrary topic, but since both hosts are involved in making Youtube videos, that's one reoccuring topic.
 
 
 
 ## YouTube Channels
-These are some of the Youtube channels that I'm following.  Judging by my growing list of "Watch later" videos, I'm clearly subscriped to more channels that I have the time to watch.
+These are some of the Youtube channels that I'm following.  Judging by my growing list of "Watch later" videos, I'm clearly subscribed to more channels that I have the time to watch.
 
   - [https://www.youtube.com/@3blue1brown](_3Blue1Brown_): An educational channel about a lot of mathematical topics that are beautifully animated.
   - [https://www.youtube.com/@74gear](_74 Gear_): A channel about piloting-related topics from the point of view of a professional 747 pilot.
@@ -60,7 +101,7 @@ These are some of the Youtube channels that I'm following.  Judging by my growin
   - [https://www.youtube.com/@Computerphile](_Computerphile_): An educational channel that is focussed on the hardware and software side of computer science.
   - [https://www.youtube.com/@CppCon](_CppCon_): On this channel, all recorded talks of the CppCon, an annual C++ focussed conference are released.
   - [https://www.youtube.com/@crashcourse](_CrashCourse_): An educational channel with many sub-channels that cover everything from world history, sociology, to chemistry.
-  - [https://www.youtube.com/@DeviantOllam](_Deviant Ollam_): A variety of topics from self-defense, IT security, and travelling. 
+  - [https://www.youtube.com/@DeviantOllam](_Deviant Ollam_): A variety of topics from self-defense, IT security, and travelling.
   - [https://www.youtube.com/@DoctorMike](_Doctor Mike_): A channel discussing medical research, their findings, and applicability to everyday life.
   - [https://www.youtube.com/@ElectroBOOM](_ElectroBOOM_): An electronis channel, usually with some minor explosions being involved, while teaching about circuitry.
   - [https://www.youtube.com/@EverydayAstronaut](_Everyday Astronaut_): An eduational channel probably most known for its in-depth series on all kinds of rocket engines.
@@ -104,6 +145,8 @@ These are some of the Youtube channels that I'm following.  Judging by my growin
   - [https://www.youtube.com/@Wendoverproductions](_Wendover Productions_): An educational channel that has documentary-stye videos about a variety of topics, often transporation or bricks.
 
 ### Previous
+A list of previous channels that I used follow more actively, but fell off for some reason or another. This list is mostly here to remind me to check in every once in a while to see what happened
+
   - [https://www.youtube.com/@GeographyNow](_Geography Now_): An educational channel where the host explains each country of the world alphabetically in bite-sized 10 minutes videos.
   - [https://www.youtube.com/@jackfrags](_Jack Frags_):
   - [https://www.youtube.com/@JacksonGalaxy](_Jackson Galaxy_):
