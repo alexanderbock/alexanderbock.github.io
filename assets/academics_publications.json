@@ -1,19 +1,135 @@
 {
   "publications": [
     {
-      "title"         : "OpenSpace Sonification: Complementing Visualization of the Solar System with Sound",
-      "authors"       : [ "Elmquist, E.", "Ejdbo, M.", "Bock, A.", "Rönnberg, N." ],
-      "venue"         : "International Community for Auditory Displays",
-      "year"          : "2021",
+      "title"         : "A Cosmic View of Life on Earth: Hierarchical Visualization of Biological Data using Astronomical Software",
+      "authors"       : [ "Duchemin, W.", "Fujiwara, T.", "Herhold, H.", "Elmquist, E.", "Thaler, D.", "Harcourt-Smith, W.", "Broberg, E.", "Bock, A.", "Abbott, B.", "Faherty, J." ],
+      "venue"         : "IEEE Computer Graphics & Applications",
+      "year"          : "2025",
       "type"          : "Paper",
-      "doi"           : "",
+      "doi"           : "10.1109/MCG.2025.3591713",
       "pdf"           : "",
-      "bib"           : "",
-      "web"           : ""
+      "bib"           : "papers/cga25-duchemin-cosmic-view"
+    },
+    {
+      "title"         : "In space, no one (but AI) can hear you scream",
+      "authors"       : [ "Brossier, M.", "Bock, A.", "Schönborn, K.", "Isenberg, T.", "Ynnerman, A.", "Besançon, L." ],
+      "venue"         : "IEEE Visualization",
+      "year"          : "2024",
+      "type"          : "Poster",
+      "doi"           : "10.17605/OSF.IO/JCGZT",
+      "pdf"           : "papers/vis24-brossier-aispace.pdf",
+      "bib"           : "papers/vis24-brossier-aispace.bib"
+    },
+    {
+      "title"         : "Parallel Chords: An Audio-visual Analyics Design for Parallel Coordinates",
+      "authors"       : [ "Elmquist, E.", "Enge, K.", "Rind, A.", "Navarra, C.", "Höldrich, R.", "Iber, M.", "Bock, A.", "Ynnerman, A", "Aigner, W.", "Rönnberg, N." ],
+      "venue"         : "Personal and Ubiquitous Computing",
+      "year"          : "2024",
+      "type"          : "Paper",
+      "doi"           : "10.1007/s00779-024-01795-8",
+      "pdf"           : "papers/puc24-elmquist-parallelchords.pdf",
+      "bib"           : "papers/puc24-elmquist-parallelchords.bib"
+    },
+    {
+      "title"         : "The OpenSpace Planetarium Software and its Impact on Visualizing the Known Universe",
+      "authors"       : [ "Faherty, J.", "Abbott, B.", "Acinapura, M.", "Bock, A.", "Emmart, C." ],
+      "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
+      "year"          : "2024",
+      "type"          : "Abstract"
+    },
+    {
+      "title"         : "Towards a Systematic Scene Analysis Framework for Audiovisual Data Representations",
+      "authors"       : [ "Elmquist, E.", "Bock, A.", "Ynnerman, A", "Rönnberg, N." ],
+      "venue"         : "Audiovisual Symposium",
+      "year"          : "2024",
+      "type"          : "Abstract"
+    },
+    {
+      "title"         : "Birdsongification: Contexual and Complementary Sonification for Biology Visualization",
+      "authors"       : [ "Elmquist, E.", "Ejdbo, M.", "Bock, A.", "Thaler, D.", "Ynnerman, A", "Rönnberg, N." ],
+      "venue"         : "International Community for Auditory Displays",
+      "year"          : "2024",
+      "type"          : "Paper",
+      "doi"           : "10.21785/icad2024.006",
+      "pdf"           : "papers/icad24-elmquist-birdsongification.pdf",
+      "bib"           : "papers/icad24-elmquist-birdsongification.bib"
+    },
+    {
+      "title"         : "Engaging the Public with NASA Data: Ongoing Innovation of OpenSpace",
+      "authors"       : [ "Emmart, C.", "Kinzler, R.", "Bock, A.", "Selling, Y.", "Ejdbo, M.", "Acinapura, M.", "Villa, M.", "Trakinski, V." ],
+      "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
+      "year"          : "2023",
+      "type"          : "Abstract"
+    },
+    {
+      "title"         : "ExoplanetExplorer: Contexual Visualization of Exoplanet Systems",
+      "authors"       : [ "Broman, E.", "Faherty, J.", "Kreidberg, L.", "Zieba, S.", "Hansen, C.", "Ynnerman, A", "Bock, A." ],
+      "venue"         : "IEEE Visualization and Visual Analytics",
+      "year"          : "2023",
+      "type"          : "Paper",
+      "doi"           : "10.1109/VIS54172.2023.00025",
+      "pdf"           : "papers/vis23-broman-exoplanetexplorer.pdf",
+      "bib"           : "papers/vis23-broman-exoplanetexplorer.bib",
+      "video"         : "https://data.openspaceproject.com/release/ExoplanetExplorer/misc/demo_video.mov",
+      "web"           : "https://www.itn.liu.se/~emmbr26/ExoplanetExplorer/2022-09-21/Guide.pdf"
+    },
+    {
+      "title"         : "SonAir: The Design of a Sonification of Radar Data for Air Traffic Control",
+      "authors"       : [ "Elmquist, E.", "Bock, A.", "Lundberg, J.", "Ynnerman, A", "Rönnberg, N." ],
+      "venue"         : "Journal on Multimodal User Interfaces",
+      "year"          : "2023",
+      "type"          : "Paper",
+      "doi"           : "10.1007/s12193-023-00404-x",
+      "pdf"           : "papers/jmui23-elmquist-sonair.pdf",
+      "bib"           : "papers/jmui23-elmquist-sonair.bib"
+    },
+    {
+      "title"         : "A Visual Environment for Data Driven Protein Modeling and Validation",
+      "authors"       : [ "Falk, M.", "Tobiasson, V.", "Bock, A.", "Hansen, C.", "Ynnerman, A" ],
+      "venue"         : "IEEE Transactions on Visualization and Computer Graphics",
+      "year"          : "2023",
+      "type"          : "Paper",
+      "doi"           : "10.1109/tvcg.2023.3286582",
+      "pdf"           : "papers/vis23-falk-cryoem.pdf",
+      "bib"           : "papers/vis23-falk-cryoem.bib"
+    },
+    {
+      "title"         : "Three-dimensional Structure and Stability of Discontinuities between Unmagnetized Pair Plasma and Magnetized Electron-proton Plasma",
+      "authors"       : [ "Dieckmann, M.", "Folini, D.", "Falk, M.", "Bock, A.", "Steneteg, P.", "Walder, R." ],
+      "venue"         : "New Journal of Physics",
+      "year"          : "2023",
+      "type"          : "Paper",
+      "doi"           : "10.1088/1367-2630/acdd19",
+      "pdf"           : "papers/njop23-dieckmann-stability.pdf",
+      "bib"           : "papers/njop23-dieckmann-stability.bib"
+    },
+    {
+      "title"         : "Moliverse: Contextually Embedding the Microcosm into the Universe",
+      "authors"       : [ "Lan, F.", "Young, M.", "Anderson, L.", "Ynnerman, A.", "Bock, A.", "Borkin, M.", "Forbes, A.", "Kollmeier, J.", "Wang, B." ],
+      "venue"         : "Computers & Graphics",
+      "year"          : "2023",
+      "type"          : "Paper",
+      "doi"           : "10.1016/j.cag.2023.02.006",
+      "pdf"           : "papers/cg23-brossier-moliverse.pdf",
+      "bib"           : "papers/cg23-brossier-moliverse.bib"
+    },
+    {
+      "title"         : "WorldWide Telescope in OpenSpace: Placing Exploration in Context",
+      "authors"       : [ "Kinzler, R.", "Emmart, C.", "Bock, A.", "Selling, Y.", "Lindgren, E.", "Ejdbo, M.", "Acinapura, M.", "Villa, M.", "Trakinski, V." ],
+      "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
+      "year"          : "2022",
+      "type"          : "Abstract"
+    },
+    {
+      "title"         : "Unlocking the Universe: OpenSpace Software at Informal Science Institutions",
+      "authors"       : [ "Kinzler, R.", "Johnston, A.", "Smith, R.", "Sumners, C.", "Wyatt, R.", "Yu, K.", "Villa, M.", "Acinapura, M.", "Emmart, C.", "Trakinski, V.", "Bock, A.", "Mac Low, M.", "Ebel, D." ],
+      "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
+      "year"          : "2022",
+      "type"          : "Abstract"
     },
     {
       "title"         : "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, and Educating the Earth",
-      "authors"       : [ "Lan, F." , "Young, M.", "Anderson, L.", "Ynnerman, A.", "Bock, A.", "Borkin, M.", "Forbes, A.", "Kollmeier, J.", "Wang, B." ],
+      "authors"       : [ "Lan, F.", "Young, M.", "Anderson, L.", "Ynnerman, A.", "Bock, A.", "Borkin, M.", "Forbes, A.", "Kollmeier, J.", "Wang, B." ],
       "venue"         : "Computer Graphics Forum",
       "year"          : "2021",
       "type"          : "Paper",
@@ -21,6 +137,16 @@
       "pdf"           : "papers/cgf21-lan-young-star.pdf",
       "bib"           : "papers/cgf21-lan-young-star.bib",
       "web"           : "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14332"
+    },
+    {
+      "title"         : "OpenSpace Sonification: Complementing Visualization of the Solar System with Sound",
+      "authors"       : [ "Elmquist, E.", "Ejdbo, M.", "Bock, A.", "Rönnberg, N." ],
+      "venue"         : "International Community for Auditory Displays",
+      "year"          : "2021",
+      "type"          : "Paper",
+      "doi"           : "10.21785/icad2021.018",
+      "pdf"           : "papers/icad-21-elmquist-openspace_sonification.pdf",
+      "bib"           : "papers/icad-21-elmquist-openspace_sonification.bib"
     },
     {
       "title"         : "Interactive Visualization of Atmospheric Effects for Celestial Bodies",
@@ -118,7 +244,7 @@
       "pdf"           : "papers/vis17-bladin-globe_browsing.pdf",
       "bib"           : "papers/vis17-bladin-globe_browsing.bib",
       "web"           : "http://ieeexplore.ieee.org/document/8017579/",
-      "code"          : "https://github.com/OpenSpace/OpenSpace", 
+      "code"          : "https://github.com/OpenSpace/OpenSpace",
       "annotations"   : "Best Scientific Visualization Paper"
     },
     {
@@ -344,7 +470,7 @@
       "authors"       : [ "Törnros, M.", "Berrios, D.", "Bock, A.", "Emmart, C.", "Harberts, R.", "Ynnerman, A." ],
       "venue"         : "Abstracts at American Geophysical Union, Fall Meeting",
       "year"          : "2012",
-      "type"          : "Abstracts",
+      "type"          : "Abstract",
       "pdf"           : "papers/agu12-tornros-space_weather.pdf",
       "bib"           : "papers/agu12-tornros-space_weather.bib"
     },
