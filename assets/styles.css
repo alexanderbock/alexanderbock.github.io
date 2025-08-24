@@ -1,141 +1,84 @@
 /* css styles */
 
 .academics-links {
-    font-size: 150%;
-    color: #d5484f;
-    text-decoration: none;
+  font-size: 150%;
+  color: #d5484f;
+  text-decoration: none;
 }
 
 .publication-annotation {
-    background: #85181f;
-    color: #ffffff;
-    font-size: 110%;
-    padding: 4px;
-    border-radius: 5px;
-    text-shadow: 2px 2px #000000;
+  background: #85181f;
+  color: #ffffff;
+  font-size: 110%;
+  padding: 4px;
+  border-radius: 5px;
+  text-shadow: 2px 2px #000000;
 }
 
 .tabular-second-line {
-    font-size: 130%;
-    font-style: italic;
+  font-size: 130%;
+  font-style: italic;
 }
 
 .tabular-third-line {
-    font-size: 110%;
+  font-size: 110%;
 }
 
 .tabular {
-    font-size:  85%;
-    line-height: 200%;
-    padding:    6px;
-    color: #aaaaaa;
+  font-size: 65%;
+  line-height: 200%;
+  padding: 6px;
+  color: #aaaaaa;
 }
+
 .tabular:nth-child(odd) {
-    background: #090909;
+  background: #090909;
 }
 
 .tabular:nth-child(even) {
-    background: #2D2D2D;
+  background: #2D2D2D;
 }
 
 .tabular-icon {
-    font-size: 175%;
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #dddddd;
+  font-size: 175%;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #dddddd;
 }
 
 .tabular-year {
-    font-size: 150%;
-    text-decoration: none;
-    color: #dddddd;
+  font-size: 150%;
+  text-decoration: none;
+  color: #dddddd;
 }
 
 .tabular-icon {
-    font-size: 175%;
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #dddddd;
+  font-size: 175%;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #dddddd;
 }
 
 .tabular-first-line {
-    font-size: 175%;
-    text-decoration: none;
-    color: #dddddd;
-    font-variant: small-caps;
+  font-size: 175%;
+  text-decoration: none;
+  color: #dddddd;
+  font-variant: small-caps;
 }
 
 .tabular-second-line {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .tabular-third-line {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 .tabular-type {
-    font-size: 125%;
+  font-size: 125%;
 }
 
 .spacing {
-    padding-bottom: 3cm;
+  padding-bottom: 3cm;
 }
 
-#container4 {
-    padding-top: 0.5cm;
-    padding-bottom: 2cm;
-
-    clear:left;
-    float:left;
-    width:100%;
-    overflow:hidden;
-}
-#container3 {
-    clear:left;
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-}
-#container2 {
-    clear:left;
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-}
-#container1 {
-    float:left;
-    width:100%;
-    position:relative;
-    right:25%;
-    left:-20%;
-}
-#col1 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:77%;
-    overflow:hidden;
-}
-#col2 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:81%;
-    overflow:hidden;
-}
-#col3 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:85%;
-    overflow:hidden;
-}
-#col4 {
-    float:left;
-    width:21%;
-    position:relative;
-    left:89%;
-    overflow:hidden;
-}
