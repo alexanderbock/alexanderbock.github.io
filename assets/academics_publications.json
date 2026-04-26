@@ -2,7 +2,7 @@
   "publications": [
     {
       "title"         : "A Cosmic View of Life on Earth: Hierarchical Visualization of Biological Data using Astronomical Software",
-      "authors"       : [ "Duchemin, W.", "Fujiwara, T.", "Herhold, H.", "Elmquist, E.", "Thaler, D.", "Harcourt-Smith, W.", "Broberg, E.", "Bock, A.", "Abbott, B.", "Faherty, J." ],
+      "authors"       : [ "Duchemin, W.", "Fujiwara, T.", "Herhold, H.", "Elmquist, E.", "Thaler, D.", "Harcourt-Smith, W.", "Broman, E.", "Bock, A.", "Abbott, B.", "Faherty, J." ],
       "venue"         : "IEEE Computer Graphics & Applications",
       "year"          : "2025",
       "type"          : "Paper",
