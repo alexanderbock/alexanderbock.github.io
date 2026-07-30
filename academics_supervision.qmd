@@ -1,19 +1,29 @@
 ---
 title: "Supervision"
+
+listing:
+  - id: supervision-ongoing
+    type: custom
+    template: _template/academics_supervision.ejs.md
+    contents: assets/academics_supervision.yml
+    sort: year desc
+    include:
+      ongoing: true
+  - id: supervision-completed
+    type: custom
+    template: _template/academics_supervision.ejs.md
+    contents: assets/academics_supervision.yml
+    sort: year desc
+    exclude:
+      ongoing: true
 ---
 
-```{python}
-#| echo: false
+## Ongoing
 
-from IPython.display import display, HTML
-from jinja2 import Environment, FileSystemLoader
-import json
+::: {#supervision-ongoing}
+:::
 
-with open("assets/academics_supervision.json", encoding="utf-8") as f:
-  data = json.load(f)
+## Completed
 
-environment = Environment(loader=FileSystemLoader("assets"))
-template = environment.get_template("academics_supervision.html.jinja")
-output = template.render(supervisions=data["supervisions"])
-display(HTML(output))
-```
+::: {#supervision-completed}
+:::

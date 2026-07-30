@@ -1,19 +1,12 @@
 ---
 title: "Teaching"
+
+listing:
+  - id: teaching
+    type: custom
+    template: _template/academics_teaching.ejs.md
+    contents: assets/academics_teaching.yml
 ---
 
-```{python}
-#| echo: false
-
-from IPython.display import display, HTML
-from jinja2 import Environment, FileSystemLoader
-import json
-
-with open("assets/academics_teaching.json", encoding="utf-8") as f:
-  data = json.load(f)
-
-environment = Environment(loader=FileSystemLoader("assets"))
-template = environment.get_template("academics_teaching.html.jinja")
-output = template.render(teachings=data["teaching"])
-display(HTML(output))
-```
+::: {#teaching}
+:::

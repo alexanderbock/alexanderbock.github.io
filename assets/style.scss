@@ -1,4 +1,16 @@
-/* css styles */
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$navbar-bg: #373a5f;
+$navbar-fg: #bbbbbb;
+$navbar-hl: white;
+$navbar-padding-y: 0rem;
+
+$link-color: #3ac39c;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+/*-- scss:rules --*/
 
 .academics-links {
   font-size: 150%;
@@ -8,11 +20,11 @@
 
 .publication-annotation {
   background: #85181f;
-  color: #ffffff;
+  color: white;
   font-size: 110%;
   padding: 4px;
   border-radius: 5px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px black;
 }
 
 .tabular-second-line {
@@ -29,14 +41,14 @@
   line-height: 200%;
   padding: 6px;
   color: #aaaaaa;
-}
 
-.tabular:nth-child(odd) {
-  background: #090909;
-}
+  &:nth-child(odd) {
+    background: #090909;
+  }
 
-.tabular:nth-child(even) {
-  background: #2D2D2D;
+  &:nth-child(even) {
+    background: #2D2D2D;
+  }
 }
 
 .tabular-icon {

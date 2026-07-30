@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var map = new google.maps.Map(
+  let map = new google.maps.Map(
     document.getElementById("map_canvas_walking"),
     {
       zoom: 12,
@@ -11,15 +11,15 @@ $(document).ready(function() {
     'assets/project_hermes.data',
     null,
     function(data) {
-      var lines = data.split('\n')
-      for (var line = 0; line < lines.length; ++line) {
-        var values = lines[line].split(' ')
+      let lines = data.split('\n')
+      for (let line = 0; line < lines.length; ++line) {
+        let values = lines[line].split(' ')
 
         points = []
         // We have to stop one iteration earlier due to an extra " " at the end of the the line
-        for (var value = 0; value < values.length; value=value+2) {
-          var lat = parseFloat(values[value], 10);
-          var lng = parseFloat(values[value + 1], 10);
+        for (let value = 0; value < values.length; value=value+2) {
+          let lat = parseFloat(values[value], 10);
+          let lng = parseFloat(values[value + 1], 10);
 
           points.push({
             lat: lat,

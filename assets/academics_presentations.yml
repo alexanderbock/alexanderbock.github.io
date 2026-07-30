@@ -1,0 +1,264 @@
+- title: Various Presentations
+  occasion: OpenSpace User Meeting
+  location: New York City, USA
+  year: 2025
+- title: Born in the Lab, Broken in the Wild?
+  occasion: Dagstuhl Provocations
+  location: Schloss Dagstuhl, Germany
+  year: 2025
+- title: "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums"
+  occasion: Configura Allhands
+  location: Linköping
+  year: 2025
+- title: OpenSpace
+  occasion: OpenSpace Workshop
+  location: Bloemfontein, South Africa
+  year: 2025
+- title: "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums"
+  occasion: International Planetarium Society
+  location: Berlin, Germany
+  year: 2024
+- title: Visualization Center C and OpenSpace
+  occasion: Hungarian Center for Excellence
+  location: Dome, Norrköping
+  year: 2024
+- title: OpenSpace
+  occasion: Open House Linköping University
+  location: Remote
+  year: 2024
+- title: OpenSpace
+  occasion: Mobile Planetarium Network
+  location: Remote
+  year: 2024
+- title: OpenSpace
+  occasion: ESA Space Group
+  location: Darmstadt, Germany
+  year: 2023
+- title: "OpenSpace: Using an Astronomy Visualization Platform for Applications in Biology"
+  occasion: Invited Talk
+  location: Basel, Switzerland
+  year: 2023
+- title: "OpenSpace: Visualizing the Entire Universe using Open-Source Software"
+  occasion: Platform for Advanced Scientific Computing
+  location: Davos, Switzerland
+  year: 2023
+- title: "Moliverse: Contextually embedding the Microcosmos into the Universe"
+  occasion: MolVA Workshop
+  location: Leipzig, Germany
+  year: 2023
+- title: "Moliverse: Contextually embedding the Microcosmos into the Universe"
+  occasion: Molecular Visualization Day
+  location: Dome, Norrköping
+  year: 2023
+- title: "OpenSpace: Visualizing the Universe"
+  occasion: Joint Invited Talk
+  location: Scientific Computing and Imaging Intitute, University of Utah, USA
+  year: 2023
+- title: "OpenSpace: Combining Science and Education Tools in Astronomy"
+  occasion: Popular Science Week
+  location: Remote
+  year: 2022
+- title: "OpenSpace: Visualizing the entire universe using open-source software"
+  occasion: Culture Night
+  location: Dome, Norrköping
+  year: 2022
+- title: "OpenSpace: It works on my machine. Transporting the open-source universe from a research lab into planetariums"
+  occasion: EuroVis VisGap Keynote
+  location: Rome, Italy
+  year: 2022
+- title: "OpenSpace: An open-source astrovisualization framework to visualize the universe"
+  occasion: Swedish Royal Academy Astrovisualization Workshop
+  location: Dome, Norrköping
+  year: 2022
+- title: "OpenSpace: Visualizing the Universe"
+  occasion: Seeing the Future workshop
+  location: New Castle, USA
+  year: 2022
+- title: OpenSpace Live Presentations
+  occasion: Expo 2020
+  location: Dubai, UAE
+  year: 2021
+- title: "OpenSpace: An open-source astrovisualization framework to visualize the universe"
+  occasion: SeRC Workshop
+  location: Remote
+  year: 2021
+- title: "OpenSpace: An open-source astrovisualization framework to visualize the universe"
+  occasion: USCS CROSS Symposium
+  location: Remote
+  year: 2021
+- title: "OpenSpace: Visualizing the Universe"
+  occasion: Vetenskapsdagen
+  location: Dome, Norrköping
+  year: 2021
+- title: Interactive Visualization of Atmospheric Effects for Celestial Bodies
+  occasion: SIGGRAPH
+  location: Recorded
+  year: 2021
+- title: "OpenSpace: An open-source astrovisualization framework to visualize the universe"
+  occasion: British Computer Society
+  location: Remote
+  year: 2021
+- title: "OpenSpace: Bridging the Gap. Bringing Expert Tools into Planetariums and Living Rooms"
+  occasion: Vis Astro Workshop
+  location: IEEE Vis (remote)
+  year: 2020
+- title: "OpenSpace: An Open-source Bridge between Scientists and the Public"
+  occasion: Vis+Astro Workshop
+  location: SCI Institute (remote)
+  year: 2020
+- title: "OpenSpace: A system for astrographics"
+  occasion: IEEE Vis
+  location: Vancouver, Canada
+  year: 2019
+- title: Introductory presentation
+  occasion: Dagstuhl Seminar Series
+  location: Schloss Dagstuhl, Germany
+  year: 2019
+- title: "OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How"
+  occasion: IEEE Vis
+  location: Berlin, Germany
+  year: 2018
+- title: "OpenSpace: Moving from What to How in Public Dissemination"
+  occasion: Moore-Sloan Data Science Environment Meeting
+  location: Park City, USA
+  year: 2018
+- title: "OpenSpace: Moving from What to How in Astrovisualization"
+  occasion: Data Visualization Summit
+  location: Boston, USA
+  year: 2018
+- title: "Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization"
+  occasion: SIGGRAPH
+  location: Vancouver, Canada
+  year: 2018
+- title: Tailoring Visualization Applications for Tasks and Users
+  occasion: Thesis Defense
+  location: Norrköping, Sweden
+  year: 2018
+- title: "OpenSpace: An open-source astrovisualization framework bridging the gap between scientists and the public"
+  occasion: Evolutionary Robotics
+  location: online
+  year: 2017
+  video: https://www.youtube.com/watch?v=iWP0j8UsWLM
+- title: "OpenSpace: Hands-On"
+  occasion: Flatiron Scientific Visualization Conference
+  location: New York, USA
+  year: 2017
+  type: Invited
+- title: "TopoAngler: Interactive Topology-based Segmentation of Fishes"
+  occasion: IEEE Vis
+  location: Phoenix, USA
+  year: 2017
+  type: Paper
+- title: OpenSpace
+  occasion: Space Apps NYC
+  location: New York, USA
+  year: 2017
+  type: Invited
+  video: https://www.youtube.com/watch?v=p8UtGyKFdRo
+- title: "OpenSpace: Moving from What to How in Science Communication"
+  occasion: Center for Data Science Lunch Series
+  location: New York, USA
+  year: 2017
+  type: Seminar
+- title: "OpenSpace: Moving from What to How in Science Communication"
+  occasion: MIT Media Lab
+  location: Boston, USA
+  year: 2017
+  type: Invited
+- title: "OpenSpace: From What to How in Science Communication"
+  occasion: Crossdrive
+  location: Turin, Italy
+  year: 2016
+  type: Invited
+- title: Hybrid Data Visualization Based on Depth Complexity Histogram Analysis
+  occasion: EuroVis
+  location: Groningen, The Netherlands
+  year: 2016
+  type: Paper
+  video: https://vimeo.com/187725634
+- title: "OpenSpace: Visualizing the Universe"
+  occasion: EuroVis
+  location: Groningen, The Netherlands
+  year: 2016
+  type: Keynote*
+  video: https://vimeo.com/169967499
+- title: Hybrid Data Visualization Based on Depth Complexity Histogram Analysis
+  occasion: SIGRAD
+  location: Visby, Sweden
+  year: 2016
+  type: Paper
+- title: "OpenSpace: A Collaborative Science Dissemination Tool"
+  occasion: International CCMC Workshop
+  location: Annapolis, USA
+  year: 2016
+  type: Invited
+- title: "OpenSpace: An Open-Source Framework for Data Visualization and Contextualization"
+  occasion: American Geophysical Union, Fall Meeting
+  location: San Francisco, USA
+  year: 2015
+  type: Abstract
+- title: Visual Verification of Space Weather Ensemble Simulations
+  occasion: Vis
+  location: Chicago, USA
+  year: 2015
+  type: Paper
+- title: Visualization. Why? How? What?
+  occasion: Laboratory of Organic Electronic Seminars
+  location: Norrköping, Sweden
+  year: 2015
+  type: Invited
+- title: An Interactive Visualization System for Urban Search & Rescue Mission Planning
+  occasion: MSB Emergency Preparedness Seminar
+  location: Katrineholm, Sweden
+  year: 2015
+  type: Invited
+- title: Visualization and its Applications
+  occasion: Campusveckan
+  location: Norrköping, Sweden
+  year: 2015
+  type: Introductory
+- title: Introduction to Scientific Visualization and its Applications
+  occasion: 1st KHA/AUT Computer Science/Engineering Seminar
+  location: Tehran, Iran
+  year: 2015
+  type: Invited
+- title: An Interactive Visualization System for Urban Search & Rescue Mission Planning
+  occasion: Symposium on Safety, Security, and Rescue Robotics
+  location: Toyako-cho, Japan
+  year: 2014
+  type: Paper
+- title: Supporting Urban Search & Rescue Mission Planning Through Visualization-Based Analysis
+  occasion: Vision, Modelling, and Visualization
+  location: Darmstadt, Germany
+  year: 2014
+  type: Paper
+- title: Towards Visual Verification of Coronal Mass Ejections in ENLIL Ensemble Simulations through Optical Flow Analysis
+  occasion: Solar Information Processing Workshop
+  location: La Roche-en-Ardenne, Belgium
+  year: 2014
+  type: Invited
+- title: "CCMC-LiU-AMNH Partnership: Advanced Visualization"
+  occasion: International CCMC Workshop
+  location: Annapolis, MD, USA
+  year: 2014
+  type: Invited
+- title: Poor Man's Rendering of Segmented Data
+  occasion: SIGRAD
+  location: Norrköping, Sweden
+  year: 2013
+  type: Paper
+- title: Guiding Deep Brain Stimulation Interventions by Fusing Multimodal Uncertainty Regions
+  occasion: PacificVis
+  location: Sydney, Australia
+  year: 2013
+  type: Paper
+- title: Coherency-Based Curve Compression for High-Order Finite Element Model Visualization
+  occasion: Vis
+  location: Seattle, USA
+  year: 2012
+  type: Paper
+- title: Voreen
+  occasion: Swedish e-Science Research Center
+  location: Norrköping, Sweden
+  year: 2012
+  type: Workshop

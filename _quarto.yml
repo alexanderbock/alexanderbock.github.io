@@ -44,7 +44,7 @@ format:
   html:
     theme:
       - darkly
-      - assets/custom.scss
+      - assets/style.scss
     respect-user-color-scheme: true
     css:
       - assets/styles.css

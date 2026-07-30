@@ -1,0 +1,100 @@
+- class: TNM093
+  role: Lecturer
+  description: Practical Data Visualization and Virtual Reality
+  university: Linköping University
+  years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+- class: TNM093
+  role: Lab assistant
+  description: Practical Data Visualization and Virtual Reality
+  university: Linköping University
+  years:
+    - 2013
+    - 2014
+    - 2025
+- class: 746A88
+  role: Lecturer
+  description: Visualizing Sustainability Challenges and Pathways
+  university: Linköping University
+  years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+- class: 972G39
+  role: Lecturer
+  description: Natural Sciences
+  university: Linköping University
+  years:
+    - 2019
+- class: TNM094
+  role: Lecturer
+  description: Medieteknisk kandidatproject (Bachelor project in Media technology)
+  university: Linköping University
+  years:
+    - 2019
+- class: TNM094
+  role: Lab assistant
+  description: Medieteknisk kandidatproject (Bachelor project in Media technology)
+  university: Linköping University
+  years:
+    - 2014
+    - 2015
+- class: DS-GA 3001
+  role: Lecturer
+  description: Scientific Visualization
+  university: New York University
+  years:
+    - 2018
+- class: DS-GA 1009
+  role: Lecturer
+  description: Practical Data Visualization Internship
+  university: New York University
+  years:
+    - 2017
+    - 2018
+- class: DS-GA 1009
+  role: Lecturer
+  description: Practical Data Visualization Internship
+  university: New York University
+  years:
+    - 2017
+    - 2018
+- class: TNG033
+  role: Lab assistant
+  description: Programming in C++
+  university: Linköping University
+  years:
+    - 2014
+- class: TND012
+  role: Lab assistant
+  description: Programming in C++
+  university: Linköping University
+  years:
+    - 2013
+    - 2014
+- class: TNM090
+  role: Lab assistant
+  description: Software Engineering
+  university: Linköping University
+  years:
+    - 2012
+    - 2013
+- class: TNM067
+  role: Lab assistant
+  description: Scientific Visualization
+  university: Linköping University
+  years:
+    - 2012
+- class: TNM046
+  role: Lab assistant
+  description: Computer Graphics
+  university: Linköping University
+  years:
+    - 2011
